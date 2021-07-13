@@ -2,7 +2,7 @@
 $host = 'localhost';
 $username = 'root';
 $password = '';
-$db_name = 'sos';
+$db_name = 'blueberry';
 
 $conn = new MySQLi($host,$username,$password,$db_name);
 

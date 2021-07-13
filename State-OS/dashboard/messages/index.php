@@ -78,14 +78,14 @@ $users=selectAll("users");
                                 Statistics
                             </a>
                         </li>
-                        <?php if ($_SESSION['su_admin']): ?>
+                        <?php //if ($_SESSION['su_admin']): ?>
                         <li class="btn-group nav-item">
                             <a href="#" class="nav-link">3
                                 <i class="nav-link-icon fa fa-edit"></i>
                                 Projects
                             </a>
                         </li>
-                    <?php endif; ?>
+                    <?php //endif; ?>
                         <li class="dropdown nav-item">
                             <a href="javascript:void(0);" class="nav-link">
                                 <i class="nav-link-icon fa fa-cog"></i>

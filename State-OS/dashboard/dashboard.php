@@ -170,37 +170,56 @@ $image_preview = selectOne('users',['id' => $id]);
                                         Dashboard
                                     </a>
                                 </li>
-                                <li class="app-sidebar__heading">User Settings</li>
+                                <li class="app-sidebar__heading">Content Management</li>
                                 <li>
                                     <a href="#">
                                         <i class="metismenu-icon pe-7s-user"></i>
-                                        Details
+                                        Manage Pages
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                                     </a>
                                 <ul>
                                 <li>
-                                    <a href="<?php echo BASE_URL . '/dashboard/users/view.php'  ?>">
+                                    <a href="<?php echo BASE_URL . '/dashboard/aboutus.php'  ?>">
                                         <i class="metismenu-icon"></i>
-                                        View User Details
+                                       About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo BASE_URL . '/dashboard/users/edit.php'  ?>">
+                                    <a href="<?php echo BASE_URL . '/dashboard/pricing.php'  ?>">
                                         <i class="metismenu-icon">
-                                        </i>Edit Details
+                                        </i>Pricing
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="<?php echo BASE_URL . '/dashboard/services.php'  ?>">
+                                        <i class="metismenu-icon">
+                                        </i>Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo BASE_URL . '/dashboard/portfolio.php'  ?>">
+                                        <i class="metismenu-icon">
+                                        </i>Portfolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo BASE_URL . '/dashboard/testimonials.php'  ?>">
+                                        <i class="metismenu-icon">
+                                        </i>Testimonials
+                                    </a>
+                                </li>
+
                                 <?php if ($_SESSION['admin']): ?>
 
                                     <li>
-                                        <a href="<?php echo BASE_URL . '/dashboard/users/create.php'  ?>">
+                                        <a href="<?php echo BASE_URL . '/dashboard/create.php'  ?>">
                                             <i class="metismenu-icon">
                                             </i>Add new user
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo BASE_URL . '/dashboard/users/index.php'  ?>">
+                                        <a href="<?php echo BASE_URL . '/dashboard/index.php'  ?>">
                                             <i class="metismenu-icon">
                                             </i>  View system users.
                                         </a>
@@ -208,12 +227,6 @@ $image_preview = selectOne('users',['id' => $id]);
                                 <?php endif; ?>
                                 </ul>
                             </li>
-                                <li>
-                                <a href="<?php echo BASE_URL . '/dashboard/connections/index.php'  ?>">
-                                        <i class="metismenu-icon pe-7s-add-user"></i>
-                                        Connections
-                                    </a>
-                                </li>
                                 <li class="app-sidebar__heading">Activity</li>
                                 <li>
                                     <a href="<?php echo BASE_URL . '/dashboard/messages/index.php'  ?>">
@@ -319,11 +332,18 @@ $image_preview = selectOne('users',['id' => $id]);
                                 <div class="card mb-3 widget-content bg-midnight-bloom">
                                     <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">Total Orders</div>
-                                            <div class="widget-subheading">Last year expenses</div>
+                                            <div class="widget-heading">Users</div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>1896</span></div>
+                                            <div class="widget-numbers text-white"><span>
+                                            <?php
+                                                 $query = "SELECT * FROM users";
+                                                 $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
+                                                 $user_num = mysqli_num_rows($result);
+                                                 echo "<div class='text-right huge'>{$user_num}</div>";
+                                                 ?>
+                                            
+                                            </span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -332,11 +352,18 @@ $image_preview = selectOne('users',['id' => $id]);
                                 <div class="card mb-3 widget-content bg-arielle-smile">
                                     <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">Clients</div>
-                                            <div class="widget-subheading">Total Clients Profit</div>
+                                            <div class="widget-heading">Clicks</div>
+                                            <div class="widget-subheading">People who accessed the site</div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>$ 568</span></div>
+                                            <div class="widget-numbers text-white"><span>
+                                            <?php
+                                                 $query = "SELECT page_id FROM page_views";
+                                                 $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
+                                                 $page_views = mysqli_num_rows($result);
+                                                 echo "<div class='text-right huge'>{$page_views}</div>";
+                                                 ?>
+                                            </span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -345,11 +372,19 @@ $image_preview = selectOne('users',['id' => $id]);
                                 <div class="card mb-3 widget-content bg-grow-early">
                                     <div class="widget-content-wrapper text-white">
                                         <div class="widget-content-left">
-                                            <div class="widget-heading">Followers</div>
+                                            <div class="widget-heading">Contact</div>
                                             <div class="widget-subheading">People Interested</div>
                                         </div>
                                         <div class="widget-content-right">
-                                            <div class="widget-numbers text-white"><span>46%</span></div>
+                                            <div class="widget-numbers text-white"><span>
+                                            <?php
+                                                 $query = "SELECT * FROM contact";
+                                                 $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
+                                                 $contact_num = mysqli_num_rows($result);
+                                                 echo "<div class='text-right huge'>{$contact_num}</div>";
+                                                 ?>
+                                            
+                                            </span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -916,43 +951,7 @@ $image_preview = selectOne('users',['id' => $id]);
                             </div>
                         </div>
                     </div>
-                    <div class="app-wrapper-footer">
-                        <div class="app-footer">
-                            <div class="app-footer__inner">
-                                <div class="app-footer-left">
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                Footer Link 1
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                Footer Link 2
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="app-footer-right">
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                Footer Link 3
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="javascript:void(0);" class="nav-link">
-                                                <div class="badge badge-success mr-1 ml-0">
-                                                    <small>NEW</small>
-                                                </div>
-                                                Footer Link 4
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
-                    </div>    </div>
         </div>
     </div>
     
