@@ -42,7 +42,7 @@ if (isset($_POST['update'])) {
 		$aboutus_subtitle = $validated_data['subtitle'];
 		
 	  
-	$queryupdate = "UPDATE aboutus SET title = '$aboutus_title' , subtitle = '$aboutus_subtitle' , content='$aboutus_content' WHERE id= 1 " ;
+	$queryupdate = "UPDATE aboutus SET title = '$aboutus_title' , subtitle = '$aboutus_subtitle' , content='$aboutus_content' WHERE id=1 " ;
 	$result = mysqli_query($conn , $queryupdate) or die(mysqli_error($conn));
 	if (mysqli_affected_rows($conn) > 0) {
 		$_SESSION['msg'] = 'About Us Updated Successfully';
