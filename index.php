@@ -13,31 +13,6 @@
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
-        <style>
-        .msg
-    {
-    width: 100%;
-    margin: 5px auto;
-    padding: 8px;
-    border-radius: 5px;
-    list-style: none;
-    font-family: var(--Gotu);
-}
-.success
-{
-    color: #3a6e3a;
-    border: 1px solid #3a6e3a;
-    background: #bcf5bc;
-
-}
-.error
-{
-    color: #884b4b;
-    border: 1px solid #884b4b;
-    background: #f5bcbc;
-
-}
-        </style>
     <title> BlueBerry Studios || Welcome  </title>
 </head>
     <body>
@@ -921,31 +896,29 @@
                             </div>
 
                         </div>
-                        <form action="index.php#contact" class="contact__form grid" method="POST">
-                        <?php include (ROOT_PATH . "/app/helpers/formErrors.php")?>
-
+                        <form action="#" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Name </label>
-                                <input type="text" class="contact__input" name="name" value="<?php echo $name?>">
+                                <input type="text" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Email </label>
-                                <input type="email" class="contact__input" name="email" value="<?php echo $email?>">
+                                <input type="email" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Project </label>
-                                <input type="text" class="contact__input" name="project" value="<?php echo $project?>">
+                                <input type="text" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Message </label>
-                                <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                             </div>
                             <div>
-                            <button type="submit" name="submit_message" class="button button--flex" style=" border:none;">
+                                <a href="#" class="button button--flex">
                                     Send Message
                                     <i class="uil uil-message button__icon"></i>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </form>
