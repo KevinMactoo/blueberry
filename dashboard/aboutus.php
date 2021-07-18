@@ -423,7 +423,7 @@ $image_preview = selectOne('users',['id' => $id]);
                                                     <div class="badge badge-success">live</div>
                                                 </td>
                                                 <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-1" class="btn btn-primary btn-sm" href="#addnew" data-toggle="modal">Details</button>
+                                                    <button type="button" id="PopoverCustomT-1" class="btn btn-primary btn-sm" href="#add" data-toggle="modal">Details</button>
                                                 </td>
                                             </tr>
 
@@ -620,8 +620,54 @@ function update_last_activity()
     </div>
 </div>
 
+<!-- Edit -->
+<div class="modal fade" id="add">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          	<div class="modal-header">
+            	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              		<span aria-hidden="true">&times;</span></button>
+            	<h4 class="modal-title"><b><span class="employee_id"></span></b></h4>
+          	</div>
+          	<div class="modal-body">
+            	<form class="form-horizontal" method="POST" action="aboutus.php">
+                 <?php include (ROOT_PATH . "/app/helpers/formErrors.php")?>
 
-<div class="modal fade" id="e">
+            		
+                <div class="form-group">
+                    <label for="edit_firstname" class="col-sm-3 control-label">Title</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" name="title" value="<?php echo $aboutus_title;  ?>">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="edit_lastname" class="col-sm-3 control-label">Sub Title</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" name="subtitle" value="<?php echo  $aboutus_subtitle; ?>">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="edit_address" class="col-sm-3 control-label">Content</label>
+
+                    <div class="col-sm-9">
+                      <textarea class="form-control" name="content" cols="30" rows="10"><?php echo  $aboutus_content; ?></textarea>
+                    </div>
+                </div>
+                
+          	</div>
+              <div class="modal-footer">
+              <div class="d-block text-center card-footer">
+            	<button type="submit" class="btn btn-success btn-flat" name="update"><i class="fa fa-check-square-o"></i> Update</button>
+            	</form>
+          	</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="edi">
     <div class="modal-dialog">
         <div class="modal-content">
           	<div class="modal-header">
