@@ -13,7 +13,7 @@
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
-    <title> BlueBerry Studios || Welcome  </title>
+    <title> Blueberry Studios || Welcome  </title>
 </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -21,7 +21,7 @@
         <!-- nav container -->
         <nav class="nav container">
         
-        <a href="#" class="nav__logo"> BlueBerry Studios </a> 
+        <a href="#" class="nav__logo"> Blueberry Studios </a> 
 
         <!-- nav menu -->
         <div class="nav__menu" id="nav-menu">
@@ -134,7 +134,7 @@
                         <!-- hero text -->
                         <div class="home__data">
 
-                        <h1 class="home__title">BlueBerry Studios</h1>
+                        <h1 class="home__title">Blueberry Studios</h1>
 
                         <h3 class="home__subtitle">
                         We Focus on simplifying the process of podcast production.
@@ -936,7 +936,7 @@
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
-                        <h1 class="footer__title">BlueBerry Studios.</h1>
+                        <h1 class="footer__title">Blueberry Studios.</h1>
                         <span class="footer__subtitle">For Businesses, entrepreneurs and thought eiders.</span>
                     </div>
                     <ul class="footer__links">
@@ -968,7 +968,7 @@
                     </div>
                 </div>
 
-                <p class="footer__copy">&#169; BlueBerry Studios. All Rights Reserved.</p>
+                <p class="footer__copy">&#169; Blueberry Studios. All Rights Reserved.</p>
             </div>
 
             
