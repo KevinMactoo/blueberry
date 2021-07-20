@@ -45,7 +45,7 @@ if (isset($_POST['update'])) {
 	if (mysqli_affected_rows($conn) > 0) {
 		$_SESSION['msg'] = 'About Us Updated Successfully';
         $_SESSION['type'] = 'success';
-        header('location:' . BASE_URL . "/dashboard/services.php");
+        header('location:' . BASE_URL . "/dashboard/pages.php");
         exit();
 	}
 	else {

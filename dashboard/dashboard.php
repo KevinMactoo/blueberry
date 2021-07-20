@@ -179,35 +179,12 @@ $image_preview = selectOne('users',['id' => $id]);
                                     </a>
                                 <ul>
                                 <li>
-                                    <a href="<?php echo BASE_URL . '/dashboard/aboutus.php'  ?>">
+                                    <a href="<?php echo BASE_URL . '/dashboard/pages.php'  ?>">
                                         <i class="metismenu-icon"></i>
-                                       About Us
+                                       Pages
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="<?php echo BASE_URL . '/dashboard/pricing.php'  ?>">
-                                        <i class="metismenu-icon">
-                                        </i>Pricing
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo BASE_URL . '/dashboard/services.php'  ?>">
-                                        <i class="metismenu-icon">
-                                        </i>Services
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo BASE_URL . '/dashboard/portfolio.php'  ?>">
-                                        <i class="metismenu-icon">
-                                        </i>Portfolio
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo BASE_URL . '/dashboard/testimonials.php'  ?>">
-                                        <i class="metismenu-icon">
-                                        </i>Testimonials
-                                    </a>
-                                </li>
+                                
 
                                 <?php if ($_SESSION['admin']): ?>
 

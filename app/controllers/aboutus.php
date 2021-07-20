@@ -3,7 +3,6 @@
 include (ROOT_PATH . "/app/helpers/validateAbout.php");
 include (ROOT_PATH . "/app/helpers/formErrors.php");
 
-
 $query = "SELECT * FROM aboutus WHERE id=1";
 
 $run_query = mysqli_query($conn, $query) or die(mysqli_error($conn));
@@ -47,7 +46,7 @@ if (isset($_POST['update'])) {
 	if (mysqli_affected_rows($conn) > 0) {
 		$_SESSION['msg'] = 'About Us Updated Successfully';
         $_SESSION['type'] = 'success';
-        header('location:' . BASE_URL . "/dashboard/aboutus.php");
+        header('location:' . BASE_URL . "/dashboard/pages.php");
         exit();
 	}
 	else {
