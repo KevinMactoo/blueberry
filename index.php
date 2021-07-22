@@ -110,27 +110,7 @@
 
                             </a>
                         </div>
-
-                        <!-- hero image -->
-                        <div class="home__image">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        <image class="home__blob-img" xlink:href="assets/images/home__hero.png"/>
-                        </g>
-                        </svg>
-
-                        </div>
-
+                        
                         <!-- hero text -->
                         <div class="home__data">
 
@@ -152,14 +132,7 @@
                     </div>
 
                     <!-- scroll down btn -->
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Scroll Down</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
+                  
                 </div>
             </section>
 
@@ -169,16 +142,16 @@
                 <span class="section__subtitle"> Introduction </span>
 
                 <div class="about__container container grid">
-                    <img src="assets/images/undraw_Profile_re_4a55.png" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <p class="about__description">
+                    
+                    <p class="about__img">
                         Blueberry Studios is one of the most renowned media centers in Nairobi.
                         The studio consists of 2 recording and podcasting rooms with
                         state-of-the-art hardware, plug-ins and sets that will have your projects 
                         sounding better than you could ever have imagined. 
                         The studio also has a photo / film studio, which is sure to meet your needs.
                         </p>
+
+                    <div class="about__data">
                         <h2 class="section__title"> Opening Hours</h2><br>
 
 
@@ -207,13 +180,6 @@
                                 <span class="about__info-name"> 10 A.M - 4 P.M </span>
                             </div>
 
-                        </div>
-
-                        <div class="about__buttons">
-                            <a download="" href="#" class="button button--flex">
-                                Download Rates<i class="uil uil-download-alt button__icon"></i>
-
-                            </a>
                         </div>
                     </div>
                 </div>
