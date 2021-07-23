@@ -7,6 +7,7 @@
       <!--==================== UNICONS ====================-->
       <link rel="stylesheet" href=" https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- https://unicons.iconscout.com/release/v4.0.0/css/line.css -->
 
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
@@ -224,7 +225,8 @@
                         <span class="card__header-subtitle"> Package </span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    <button class="card__button"> Book Now !</button>
+                    <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -267,10 +269,11 @@
                             <p class="card__list-description"> Hosting 3 People </p>
                         </li>
                     </ul>
-
                     
                 </article>
-                <article class="card__content grid">
+
+                  <!--==================== CARD 1-1 ====================-->
+                  <article class="card__content grid">
                     <div class="card__pricing">
                         <div class="card__pricing-number">
                             <span class="card__pricing-symbol">Kshs</span>
@@ -286,7 +289,8 @@
                         <span class="card__header-subtitle"> Package </span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    <button class="card__button"> Book Now !</button>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -329,73 +333,11 @@
                             <p class="card__list-description"> Hosting 3 People </p>
                         </li>
                     </ul>
-
                     
                 </article>
 
-                <article class="card__content grid">
-                    <div class="card__pricing">
-                        <div class="card__pricing-number">
-                            <span class="card__pricing-symbol">Kshs</span>
-                        </div>
-                        <span class="card__pricing-month"> 7500 </span>
-                    </div>
-    
-                    <header class="card__header">
-                        <div class="card__header-circle grid">
-                            <img src="assets/images/free-coin.png" alt="" class="card__header-img">
-                        </div>
-                        
-                        <span class="card__header-subtitle"> Package </span>
-                        <h1 class="card__header-title">Entails :</h1>
-                    </header>
-                    <button class="card__button"> Book Now !</button>
-                    <ul class="card__list grid">
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description">Episode < 60 minutes </p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description">Audio Recording</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Mixing and Mastering</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Flexible Booking</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Video Recording</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Video Editing</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Pro Production Support</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Teaser Video</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> 2 edit reviews </p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Hosting 3 People </p>
-                        </li>
-                    </ul>
 
-                    
-                </article>
-
+               
                 <!--==================== CARD 2 ====================-->
                 <article class="card__content grid">
                     <div class="card__pricing">
@@ -413,7 +355,7 @@
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    <button class="card__button"> Book Now !</button>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -456,7 +398,8 @@
                             <p class="card__list-description"> Hosting 3 People </p>
                         </li>
                     </ul>
-    
+  
+                
                 </article>
 
                  <!--==================== CARD 3 ====================-->
@@ -476,7 +419,7 @@
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    <button class="card__button"> Book Now !</button>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -521,11 +464,87 @@
                     </ul>
     
                 </article>
+              <!--=================BOOKING MODAL===================-->
+                                              <div class="modal fade" id="modalBookingForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                              aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header text-center">
+                                                    <h4 class="modal-title w-100 font-weight-bold">Book Your Session</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body mx-3">
+                                
+                                                  <div class="row">
+                                                     <div class="col-75">
+                                                       <div class="container">
+                                                         <form action="/action_page.php">
 
+                                                           <div class="row">
+                                                             <div class="col-50">
 
-                    
-                </div>
-            </section>
+                                                               <input type="text" id="fname" name="firstname" placeholder="Firstname*">
+
+                                                               <input type="text" id="email" name="email" placeholder="example@example.com">
+
+                                                               <div class="row">
+
+                                                                 
+                                                                 <div class="col-50">
+                                                                   <input type="text" id="zip" name="people" placeholder="No. of People" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+                                                                 </div>
+
+                                                                 <div class="col-50">
+                                                                   <label for="zip">Date:</label>
+                                                                   <input type="date" id="zip" name="zip">
+                                                                 </div> 
+
+                                                                 <div class="col-50">
+                                                                 <select class="form-control" id="select" >
+                                                                      <option value="0">Package Name</option>
+                                                                      <option value="1">Recording</option>
+                                                                      <option value="2">Mixing and Mastering</option>
+                                                                      <option value="3">Space Booking</option>
+                                                                    </select>
+                                                                 </div>
+                                                               </div>
+                                                             </div>
+
+                                                             <div class="col-50">
+
+                                                               <input type="text" id="lname" name="lastname" placeholder="Lastname">
+
+                                                               <input type="text" id="phone" name="phonenumber" placeholder="Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+
+                                                               <input type="text" id="city" name="city" value="Nairobi, Kenya" placeholder="City">
+
+                                                              <div class="row">
+                                                                <div class="col-50">
+                                                                <label for="zip"><b><small>Time:</small></b></label>
+                                                                <input type="time" value="13:00" step="900">
+                                                                </div>
+
+                                                              </div>
+                                                            </div>
+
+                                                          </div>
+
+                                                        </form>
+                                                      </div>
+                                                    </div>
+
+                                              </div> 
+                                       </div>
+                           <div class="modal-footer d-flex justify-content-center">
+                                    <button class="book"> Book Now !</button>
+                            </div>
+                         </div>
+                        </div>
+                  </div>
+
+             </section>
 
             <section class="pricing section" id="pricing">
                 <h2 class="section__title">Audio and Video Packages </h2>
@@ -550,7 +569,7 @@
                         <span class="card__header-subtitle"> Package </span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    <button class="card__button"> Book Now !</button>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -612,7 +631,7 @@
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    <button class="card__button"> Book Now !</button>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -675,7 +694,7 @@
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    <button class="card__button"> Book Now !</button>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -718,11 +737,11 @@
                             <p class="card__list-description"> Hosting 4 People </p>
                         </li>
                     </ul>
-    
+
+                     <!--=================BOOKING MODAL===================-->
+           
                 </article>
 
-
-                    
                 </div>
             </section>
 
@@ -1277,6 +1296,15 @@
         <script src="assets/js//swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
-        <script src="assets/js/mainJs.js"></script>
+        <script src="assets/js/mainJs.js"> </script>
+
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+            })
+        </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
