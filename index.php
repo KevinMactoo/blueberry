@@ -185,7 +185,7 @@
                 </div>
 
                 <div class="plan__buttons grid">
-                <button class="card__button"> Audio <br> 1 to 2 people</button>
+                <button class="card__button"> Audio </button>
                 <button class="card__button"> Audio & Video</button>
 
                 </div>
@@ -267,6 +267,8 @@
                             <p class="card__list-description"> Hosting 3 People </p>
                         </li>
                     </ul>
+
+                    
                 </article>
 
                 <!--==================== CARD 2 ====================-->
