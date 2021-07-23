@@ -23,32 +23,8 @@ add_view($conn, $visitor_ip, $page_id);
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <style>
-        .msg
-    {
-    width: 100%;
-    margin: 5px auto;
-    padding: 8px;
-    border-radius: 5px;
-    list-style: none;
-    font-family: var(--Gotu);
-}
-.success
-{
-    color: #3a6e3a;
-    border: 1px solid #3a6e3a;
-    background: #bcf5bc;
-
-}
-.error
-{
-    color: #884b4b;
-    border: 1px solid #884b4b;
-    background: #f5bcbc;
-
-}
-        </style>
+        <link rel="stylesheet" href="assets/css/style.css">
+        
     <title> BlueBerry Studios || Welcome  </title>
 </head>
     <body>
@@ -148,24 +124,7 @@ add_view($conn, $visitor_ip, $page_id);
                         </div>
 
                         <!-- hero image -->
-                        <div class="home__image">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        <image class="home__blob-img" xlink:href="assets/images/home__hero.png"/>
-                        </g>
-                        </svg>
-
-                        </div>
+                        <!--  -->
 
                         <!-- hero text -->
                         <div class="home__data">
@@ -205,7 +164,7 @@ add_view($conn, $visitor_ip, $page_id);
                 <span class="section__subtitle"> Introduction </span>
 
                 <div class="about__container container grid">
-                    <img src="assets/images/undraw_Profile_re_4a55.png" alt="" class="about__img">
+                    <!-- <img src="assets/images/undraw_Profile_re_4a55.png" alt="" class="about__img"> -->
 
                     <div class="about__data">
                         <p class="about__description">
@@ -215,9 +174,22 @@ add_view($conn, $visitor_ip, $page_id);
                         sounding better than you could ever have imagined. 
                         The studio also has a photo / film studio, which is sure to meet your needs.
                         </p>
-                        <h2 class="section__title"> Opening Hours</h2><br>
 
+                        
 
+                        <div class="about__buttons">
+                            <a download="" href="#" class="button button--flex">
+                                Book Audio Session<i class="uil uil-microphone button__icon"></i>
+
+                            </a>
+                            <a download="" href="#" class="button button--flex">
+                                Book Audio & Video Session<i class="uil uil-video button__icon"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                    <h2 class="section__title"> Opening Hours</h2><br>
                         <div class="about__info">
                         
 
@@ -244,14 +216,9 @@ add_view($conn, $visitor_ip, $page_id);
                             </div>
 
                         </div>
-
-                        <div class="about__buttons">
-                            <a download="" href="#" class="button button--flex">
-                                Download Rates<i class="uil uil-download-alt button__icon"></i>
-
-                            </a>
                         </div>
-                    </div>
+
+
                 </div>
 
         
@@ -266,8 +233,8 @@ add_view($conn, $visitor_ip, $page_id);
                 <h2 class="section__title"> Packages </h2>
                 <span class="section__subtitle"> Right Plan For You</span>
                 <div class="plan__buttons grid">
-                <button class="card__button"> Hosting <br> 1 to 2 people</button>
-                <button class="card__button"> Hosting <br> 3 to 4 people</button>
+                <h2 class="section__title"> Audio Packages </h2>
+                
 
                 </div>
 
@@ -290,6 +257,7 @@ add_view($conn, $visitor_ip, $page_id);
                         <span class="card__header-subtitle"> Package </span>
                         <h1 class="card__header-title"> Entails :</h1>
                     </header>
+                    <button class="card__button"> Book Now !</button>
                     
                     <ul class="card__list grid">
                         <li class="card__list-item">
@@ -334,11 +302,10 @@ add_view($conn, $visitor_ip, $page_id);
                         </li>
                     </ul>
     
-                    <button class="card__button"> Book Now !</button>
                 </article>
 
                 <!--==================== CARD 2 ====================-->
-                <article class="card__content grid">
+                <article class="card__content grid-card">
                     <div class="card__pricing">
                         <div class="card__pricing-number">
                             <span class="card__pricing-symbol">Kshs</span>
@@ -354,6 +321,8 @@ add_view($conn, $visitor_ip, $page_id);
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
+                    <button class="card__button"> Book Now !</button>
+
                     
                     <ul class="card__list grid">
                         <li class="card__list-item">
@@ -398,7 +367,6 @@ add_view($conn, $visitor_ip, $page_id);
                         </li>
                     </ul>
     
-                    <button class="card__button"> Book Now !</button>
                 </article>
 
                  <!--==================== CARD 3 ====================-->
@@ -418,6 +386,8 @@ add_view($conn, $visitor_ip, $page_id);
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
+                    <button class="card__button"> Book Now !</button>
+
                     
                     <ul class="card__list grid">
                         <li class="card__list-item">
@@ -462,7 +432,6 @@ add_view($conn, $visitor_ip, $page_id);
                         </li>
                     </ul>
     
-                    <button class="card__button"> Book Now !</button>
                 </article>
 
 
