@@ -186,7 +186,7 @@
 
                 <div class="plan__buttons grid">
                 <button class="card__button"> Audio </button>
-                <button class="card__button"> Audio & Video</button>
+                <button class="card__button"> Video</button>
 
                 </div>
 
