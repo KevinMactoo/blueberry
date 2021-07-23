@@ -110,8 +110,9 @@
 
                             </a>
                         </div>
-                        
+
                         <!-- hero text -->
+                        
                         <div class="home__data">
 
                         <h1 class="home__title">Blueberry Studios</h1>
@@ -119,12 +120,12 @@
                         <h3 class="home__subtitle">
                         We Focus on simplifying the process of podcast production.
                         </h3>
-
+                        
                         <p class="home__description">
                         For Businesses, entrepreneurs and thought eiders.
 
                         </p>
-
+                        
                         <a href="#pricing" class="button--home button--flex">
                         Book Session<i class="uil uil-envelope-star button--home__icon"></i>
                         </a>
@@ -139,7 +140,6 @@
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
                 <h2 class="section__title">About Us</h2>
-                <span class="section__subtitle"> Introduction </span>
 
                 <div class="about__container container grid">
                     
@@ -184,6 +184,12 @@
                     </div>
                 </div>
 
+                <div class="plan__buttons grid">
+                <button class="card__button"> Audio <br> 1 to 2 people</button>
+                <button class="card__button"> Audio & Video</button>
+
+                </div>
+
         
             </section>
 
@@ -191,15 +197,13 @@
             <section class="break__sec section">
             </section>
 
+              <!--==================== PRICING ====================-->
+
+   
             <!--==================== PRICING ====================-->
             <section class="pricing section" id="pricing">
-                <h2 class="section__title"> Packages </h2>
-                <span class="section__subtitle"> Right Plan For You</span>
-                <div class="plan__buttons grid">
-                <button class="card__button"> Hosting <br> 1 to 2 people</button>
-                <button class="card__button"> Hosting <br> 3 to 4 people</button>
-
-                </div>
+                <h2 class="section__title">Audio Packages </h2>
+              
 
                 <div class="card__container grid">
 
@@ -218,9 +222,9 @@
                         </div>
                         
                         <span class="card__header-subtitle"> Package </span>
-                        <h1 class="card__header-title"> Entails :</h1>
+                        <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    
+                    <button class="card__button"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -263,8 +267,6 @@
                             <p class="card__list-description"> Hosting 3 People </p>
                         </li>
                     </ul>
-    
-                    <button class="card__button"> Book Now !</button>
                 </article>
 
                 <!--==================== CARD 2 ====================-->
@@ -284,7 +286,7 @@
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    
+                    <button class="card__button"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -328,7 +330,6 @@
                         </li>
                     </ul>
     
-                    <button class="card__button"> Book Now !</button>
                 </article>
 
                  <!--==================== CARD 3 ====================-->
@@ -348,7 +349,7 @@
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    
+                    <button class="card__button"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -392,13 +393,212 @@
                         </li>
                     </ul>
     
-                    <button class="card__button"> Book Now !</button>
                 </article>
 
 
                     
                 </div>
             </section>
+
+            <section class="pricing section" id="pricing">
+                <h2 class="section__title">Audio and Video Packages </h2>
+              
+
+                <div class="card__container grid">
+
+                    <!--==================== CARD 1 ====================-->
+                <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 7500 </span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/free-coin.png" alt="" class="card__header-img">
+                        </div>
+                        
+                        <span class="card__header-subtitle"> Package </span>
+                        <h1 class="card__header-title">Entails :</h1>
+                    </header>
+                    <button class="card__button"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Episode < 60 minutes </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Audio Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Mixing and Mastering</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Flexible Booking</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Editing</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Pro Production Support</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Teaser Video</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> 2 edit reviews </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Hosting 3 People </p>
+                        </li>
+                    </ul>
+                </article>
+
+                <!--==================== CARD 2 ====================-->
+                <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month">9000</span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/pro-coin.png" alt="" class="card__header-img">
+                        </div>
+    
+                        <span class="card__header-subtitle">Package</span>
+                        <h1 class="card__header-title">Entails :</h1>
+                    </header>
+                    <button class="card__button"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Episode < 120 minutes </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Audio Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Mixing and Mastering</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Flexible Booking</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Editing</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Pro Production Support</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Teaser Video</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> 2 edit reviews </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Hosting 3 People </p>
+                        </li>
+                    </ul>
+    
+                </article>
+
+                 <!--==================== CARD 3 ====================-->
+                 <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 10000</span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/enterprise-coin.png" alt="" class="card__header-img">
+                        </div>
+    
+                        <span class="card__header-subtitle">Package</span>
+                        <h1 class="card__header-title">Entails :</h1>
+                    </header>
+                    <button class="card__button"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Episode > 60 minutes </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Audio Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Mixing and Mastering</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Flexible Booking</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Editing</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Pro Production Support</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Teaser Video</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> 2 edit reviews </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Hosting 4 People </p>
+                        </li>
+                    </ul>
+    
+                </article>
+
+
+                    
+                </div>
+            </section>
+
 
             <!--==================== BREAKK SEC 2 ====================-->
             <section class="break__sec-2 section">
