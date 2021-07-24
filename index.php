@@ -203,6 +203,7 @@
    
             <!--==================== PRICING ====================-->
             <section class="pricing section" id="pricing">
+
                 <h2 class="section__title">Audio Packages </h2>
               
 
@@ -487,7 +488,9 @@
 
                                                                <input type="text" id="fname" name="firstname" placeholder="Firstname*">
 
-                                                               <input type="text" id="email" name="email" placeholder="example@example.com">
+                                                               
+                                                               <input type="text" id="lname" name="lastname" placeholder="Lastname">
+
 
                                                                <div class="row">
 
@@ -513,8 +516,7 @@
                                                              </div>
 
                                                              <div class="col-50">
-
-                                                               <input type="text" id="lname" name="lastname" placeholder="Lastname">
+                                                             <input type="text" id="email" name="email" placeholder="example@example.com">
 
                                                                <input type="text" id="phone" name="phonenumber" placeholder="Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
 
@@ -546,7 +548,8 @@
 
              </section>
 
-            <section class="pricing section" id="pricing">
+           
+             <section class="pricing section" id="pricing">
                 <h2 class="section__title">Audio and Video Packages </h2>
               
 
@@ -1303,8 +1306,8 @@
             $('#myInput').trigger('focus')
             })
         </script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
