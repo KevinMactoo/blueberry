@@ -101,7 +101,7 @@
 
                             </a>
 
-                            <a href="" target="_blank" class="home__social-icon"> 
+                            <a href="https://www.instagram.com/blueberrystudioske/" target="_blank" class="home__social-icon"> 
                             <i class="uil uil-instagram-alt"></i>
 
                             </a>
@@ -123,14 +123,10 @@
 
                         <h1 class="home__title">Blueberry Studios</h1>
 
-                        <h3 class="home__subtitle">
-                        We Focus on simplifying the process of podcast production.
-                        </h3>
-                        
                         <p class="home__description">
-                        For Businesses, entrepreneurs and thought eiders.
-
+                        We focus on simplifying the process of podcast production for businesses, entrepreneurs and thought leaders.
                         </p>
+                        
                         
                         <a href="#pricing__audio" class="button--home button--flex">
                         Book Session<i class="uil uil-envelope-star button--home__icon"></i>
@@ -159,12 +155,12 @@
 
                             <div>
                                 <span class="about__info-name">
-                                Blueberry Studios is one of the most renowned media centers in Nairobi.
-                        The studio consists of 2 recording and podcasting rooms with
-                        state-of-the-art hardware, plug-ins and sets that will have your projects 
-                        sounding better than you could ever have imagined. 
-                        The studio also has a photo / film studio, which is sure to meet your needs.
-                                     </span>
+                                    Blueberry Studios is one of the most renowned media centers in Nairobi.
+                                    The studio consists of 2 recording and podcasting rooms with
+                                    state-of-the-art hardware, plug-ins and sets that will have your projects 
+                                    sounding better than you could ever have imagined. 
+                                    The studio also has a photo / film studio, which is sure to meet your needs.
+                                 </span>
                             </div>
 
                         </div>
@@ -734,7 +730,7 @@
                             
                             <!--Recording Modal -->
                             <div class="modal fade" id="recording" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                   <div class="modal-header">
                                   <h4 class="services__modal-title">Recording</h4>
@@ -757,6 +753,12 @@
                                                 </p>
                                     </li>
                                     </ul>
+
+                                    <div class="modal-footer d-flex justify-content-center">
+                                         <a href="#pricing__audio" data-target="#pricing__audio">
+                                    <button class="book" class="close" data-dismiss="modal" href="index.php#pricing__audio"> Book Now !</button>
+                                        </a>
+                                       </div>
 
                                   </div>
                                 </div>
@@ -800,7 +802,7 @@
 
                              <!--Mixing and Mastering  Modal -->
                              <div class="modal fade" id="mixing" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                   <div class="modal-header">
                                     <h4 class="services__modal-title">Mixing & Mastering</h4>
@@ -857,9 +859,11 @@
                                                  and film.</p>
 
                                             </li>
-                                                                                   
-                                            
+                                                                                
+
                                         </ul>
+
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -869,7 +873,7 @@
                         
                              <!--Space Booking Modal -->
                              <div class="modal fade" id="space" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                   <div class="modal-header">
                                     <h4 class="services__modal-title">Space Booking</h4>
@@ -893,6 +897,7 @@
                                             </li>
   
                                         </ul>
+
                                   </div>
                                 </div>
                               </div>
