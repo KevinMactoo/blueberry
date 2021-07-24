@@ -68,7 +68,7 @@
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
-        --big-font-size: 3rem ;
+        --big-font-size: 1rem ;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem ;
         --h3-font-size: 1.25rem ;
@@ -90,12 +90,13 @@
 html
 {
     scroll-behavior: smooth;
-    font-size: smaller;
+    font-size: small;
+    font-family: Arvo;
 }
 body
 {
     margin: 0 0 var(--header-height) 0;
-    font-family: var(--body-font);
+   font-family: Arvo;
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
@@ -135,8 +136,7 @@ img
     font-size:var(--small-font-size);
     margin-bottom: var(--mb-3);
 }
-.section__title,
-.section__subtitle
+.section__title
 {
     text-align: center;
 }
@@ -471,7 +471,7 @@ img
 
 .about__img
 {
-    width: 300px;
+   display: flex;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -793,7 +793,7 @@ img
 /*==================== PRICE CARD====================*/
 .card__container {
     padding: 5% 10% 3% 10%;
-    gap: 3rem 1.25rem;
+    gap: 1rem 0.25rem;
   }
 .plan__buttons
 {
@@ -807,7 +807,7 @@ img
   .card__content {
     position: relative;
     background-color: var(--container-color);
-    padding: .1rem 1rem 2.5rem;
+    padding: 0px;
     border-radius: 1.75rem;
     box-shadow: 0 12px 24px hsla(var(--hue-color), 61%, 16%, 0.1);
     transition: .4s;
@@ -838,7 +838,7 @@ img
   }
   
   .card__header-title {
-    font-size: var(--biggest-font-size);
+    font-size: 10px;
     color: var(--title-color);
     margin-bottom: var(--mb-1);
   }
@@ -854,7 +854,7 @@ img
   }
   
   .card__pricing-number {
-    font-family: var(--pricing-font);
+    font-family: Arvo;
   }
   
   .card__pricing-symbol {
@@ -1038,7 +1038,7 @@ img
     width: 100%;
     background-color: var(--input-color);
     color: var(--text-color);
-    font-family: var(--body-font);
+   font-family: Arvo;
     font-size: var(--normal-font-size);
     border: none;
     outline: none;
@@ -1453,7 +1453,7 @@ body.dark-theme
     }
     .about__img
     {
-        width: 350px;
+        width: 300px;
     }
     .about__description
     {

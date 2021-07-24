@@ -17,6 +17,8 @@
 
         <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
         <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" />
     <title> Blueberry Studios || Welcome  </title>
 </head>
     <body>
@@ -130,7 +132,7 @@
 
                         </p>
                         
-                        <a href="#pricing" class="button--home button--flex">
+                        <a href="#pricing__audio" class="button--home button--flex">
                         Book Session<i class="uil uil-envelope-star button--home__icon"></i>
                         </a>
                         </div>
@@ -143,18 +145,30 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                <h2 class="section__title">About Us</h2>
 
                 <div class="about__container container grid">
                     
-                    <p class="about__img">
+                   
 
-                        Blueberry Studios is one of the most renowned media centers in Nairobi.
+                        <div class="about__data">
+                        <h2 class="section__title"> About Us</h2><br>
+
+
+                        <div class="about__info">
+                        
+
+                            <div>
+                                <span class="about__info-name">
+                                Blueberry Studios is one of the most renowned media centers in Nairobi.
                         The studio consists of 2 recording and podcasting rooms with
                         state-of-the-art hardware, plug-ins and sets that will have your projects 
                         sounding better than you could ever have imagined. 
                         The studio also has a photo / film studio, which is sure to meet your needs.
-                        </p>
+                                     </span>
+                            </div>
+
+                        </div>
+                    </div>
 
                     <div class="about__data">
                         <h2 class="section__title"> Opening Hours</h2><br>
@@ -190,9 +204,15 @@
                 </div>
 
                 <div class="plan__buttons grid">
-                <button class="card__button" href="pricing__audio"> Audio <i class="uil uil-microphone button__icon"></i> </button>
-                <button class="card__button" href="pricing__video"> Video <i class="uil uil-video button__icon"></i> </button>
-                </div>
+               
+                        <a href="#pricing__audio" >
+                <button class="card__button" href="#pricing__audio"> Audio <i class="uil uil-microphone button__icon"></i> </button>
+                        </a>
+
+                        <a href="#pricing__video" >
+                <button class="card__button" href="#pricing__video"> Video <i class="uil uil-video button__icon"></i> </button>
+                        </a>
+            </div>
 
         
             </section>
@@ -226,8 +246,8 @@
                             <img src="assets/images/free-coin.png" alt="" class="card__header-img">
                         </div>
                         
-                        <span class="card__header-subtitle"> KSH </span>
-                        <h1 class="card__header-title">7500</h1>
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card-title">Silver Plus Pod</h1>
                     </header>
                     <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
 
@@ -290,8 +310,8 @@
                             <img src="assets/images/pro-coin.png" alt="" class="card__header-img">
                         </div>
     
-                        <span class="card__header-subtitle">Package</span>
-                        <h1 class="card__header-title">Entails :</h1>
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card__header-title">Silver Plus Pod</h1>
                     </header>
                     <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
@@ -354,8 +374,8 @@
                             <img src="assets/images/enterprise-coin.png" alt="" class="card__header-img">
                         </div>
     
-                        <span class="card__header-subtitle">Package</span>
-                        <h1 class="card__header-title">Entails :</h1>
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card__header-title">Silver Plus Pod</h1>
                     </header>
                     <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
@@ -486,7 +506,7 @@
              </section>
 
            
-             <section class="pricing section" id="pricing">
+             <section class="pricing section" id="pricing__video">
                 <h2 class="section__title">Audio and Video Packages </h2>
               
 
@@ -496,9 +516,8 @@
                 <article class="card__content grid">
                     <div class="card__pricing">
                         <div class="card__pricing-number">
-                            <span class="card__pricing-symbol">Kshs</span>
+                            <span class="card__pricing-symbol">Package</span>
                         </div>
-                        <span class="card__pricing-month"> 7500 </span>
                     </div>
     
                     <header class="card__header">
