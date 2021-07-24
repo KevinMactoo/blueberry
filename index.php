@@ -1,14 +1,3 @@
-<?php
-include "path.php";
-include (ROOT_PATH . '/app/controllers/contact.php');
-require_once('includes/counter.php');  // PHP functions file
-
-$page_id = 1;
-$visitor_ip = $_SERVER['REMOTE_ADDR']; // stores IP address of visitor in variable
-
-add_view($conn, $visitor_ip, $page_id);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,38 +7,14 @@ add_view($conn, $visitor_ip, $page_id);
       <!--==================== UNICONS ====================-->
       <link rel="stylesheet" href=" https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- https://unicons.iconscout.com/release/v4.0.0/css/line.css -->
 
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
-        <style>
-        .msg
-    {
-    width: 100%;
-    margin: 5px auto;
-    padding: 8px;
-    border-radius: 5px;
-    list-style: none;
-    font-family: var(--Gotu);
-}
-.success
-{
-    color: #3a6e3a;
-    border: 1px solid #3a6e3a;
-    background: #bcf5bc;
-
-}
-.error
-{
-    color: #884b4b;
-    border: 1px solid #884b4b;
-    background: #f5bcbc;
-
-}
-        </style>
-    <title> BlueBerry Studios || Welcome  </title>
+    <title> Blueberry Studios || Welcome  </title>
 </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -57,7 +22,7 @@ add_view($conn, $visitor_ip, $page_id);
         <!-- nav container -->
         <nav class="nav container">
         
-        <a href="#" class="nav__logo"> BlueBerry Studios </a> 
+        <a href="#" class="nav__logo"> Blueberry Studios </a> 
 
         <!-- nav menu -->
         <div class="nav__menu" id="nav-menu">
@@ -147,40 +112,21 @@ add_view($conn, $visitor_ip, $page_id);
                             </a>
                         </div>
 
-                        <!-- hero image -->
-                        <div class="home__image">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        <image class="home__blob-img" xlink:href="assets/images/home__hero.png"/>
-                        </g>
-                        </svg>
-
-                        </div>
-
                         <!-- hero text -->
+                        
                         <div class="home__data">
 
-                        <h1 class="home__title">BlueBerry Studios</h1>
+                        <h1 class="home__title">Blueberry Studios</h1>
 
                         <h3 class="home__subtitle">
                         We Focus on simplifying the process of podcast production.
                         </h3>
-
+                        
                         <p class="home__description">
                         For Businesses, entrepreneurs and thought eiders.
 
                         </p>
-
+                        
                         <a href="#pricing" class="button--home button--flex">
                         Book Session<i class="uil uil-envelope-star button--home__icon"></i>
                         </a>
@@ -188,33 +134,25 @@ add_view($conn, $visitor_ip, $page_id);
                     </div>
 
                     <!-- scroll down btn -->
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Scroll Down</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
+                  
                 </div>
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
                 <h2 class="section__title">About Us</h2>
-                <span class="section__subtitle"> Introduction </span>
 
                 <div class="about__container container grid">
-                    <img src="assets/images/undraw_Profile_re_4a55.png" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <p class="about__description">
+                    
+                    <p class="about__img">
                         Blueberry Studios is one of the most renowned media centers in Nairobi.
                         The studio consists of 2 recording and podcasting rooms with
                         state-of-the-art hardware, plug-ins and sets that will have your projects 
                         sounding better than you could ever have imagined. 
                         The studio also has a photo / film studio, which is sure to meet your needs.
                         </p>
+
+                    <div class="about__data">
                         <h2 class="section__title"> Opening Hours</h2><br>
 
 
@@ -244,14 +182,13 @@ add_view($conn, $visitor_ip, $page_id);
                             </div>
 
                         </div>
-
-                        <div class="about__buttons">
-                            <a download="" href="#" class="button button--flex">
-                                Download Rates<i class="uil uil-download-alt button__icon"></i>
-
-                            </a>
-                        </div>
                     </div>
+                </div>
+
+                <div class="plan__buttons grid">
+                <button class="card__button"> Audio </button>
+                <button class="card__button"> Video</button>
+
                 </div>
 
         
@@ -261,15 +198,14 @@ add_view($conn, $visitor_ip, $page_id);
             <section class="break__sec section">
             </section>
 
+              <!--==================== PRICING ====================-->
+
+   
             <!--==================== PRICING ====================-->
             <section class="pricing section" id="pricing">
-                <h2 class="section__title"> Packages </h2>
-                <span class="section__subtitle"> Right Plan For You</span>
-                <div class="plan__buttons grid">
-                <button class="card__button"> Hosting <br> 1 to 2 people</button>
-                <button class="card__button"> Hosting <br> 3 to 4 people</button>
 
-                </div>
+                <h2 class="section__title">Audio Packages </h2>
+              
 
                 <div class="card__container grid">
 
@@ -288,9 +224,10 @@ add_view($conn, $visitor_ip, $page_id);
                         </div>
                         
                         <span class="card__header-subtitle"> Package </span>
-                        <h1 class="card__header-title"> Entails :</h1>
+                        <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    
+                    <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -333,10 +270,75 @@ add_view($conn, $visitor_ip, $page_id);
                             <p class="card__list-description"> Hosting 3 People </p>
                         </li>
                     </ul>
-    
-                    <button class="card__button"> Book Now !</button>
+                    
                 </article>
 
+                  <!--==================== CARD 1-1 ====================-->
+                  <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 7500 </span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/free-coin.png" alt="" class="card__header-img">
+                        </div>
+                        
+                        <span class="card__header-subtitle"> Package </span>
+                        <h1 class="card__header-title">Entails :</h1>
+                    </header>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Episode < 60 minutes </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Audio Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Mixing and Mastering</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Flexible Booking</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Editing</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Pro Production Support</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Teaser Video</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> 2 edit reviews </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Hosting 3 People </p>
+                        </li>
+                    </ul>
+                    
+                </article>
+
+
+               
                 <!--==================== CARD 2 ====================-->
                 <article class="card__content grid">
                     <div class="card__pricing">
@@ -354,7 +356,7 @@ add_view($conn, $visitor_ip, $page_id);
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -397,8 +399,8 @@ add_view($conn, $visitor_ip, $page_id);
                             <p class="card__list-description"> Hosting 3 People </p>
                         </li>
                     </ul>
-    
-                    <button class="card__button"> Book Now !</button>
+  
+                
                 </article>
 
                  <!--==================== CARD 3 ====================-->
@@ -418,7 +420,7 @@ add_view($conn, $visitor_ip, $page_id);
                         <span class="card__header-subtitle">Package</span>
                         <h1 class="card__header-title">Entails :</h1>
                     </header>
-                    
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -462,13 +464,290 @@ add_view($conn, $visitor_ip, $page_id);
                         </li>
                     </ul>
     
-                    <button class="card__button"> Book Now !</button>
+                </article>
+              <!--=================BOOKING MODAL===================-->
+                                              <div class="modal fade" id="modalBookingForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                              aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header text-center">
+                                                    <h4 class="modal-title w-100 font-weight-bold">Book Your Session</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body mx-3">
+                                
+                                                  <div class="row">
+                                                     <div class="col-75">
+                                                       <div class="container">
+                                                         <form action="/action_page.php">
+
+                                                           <div class="row">
+                                                             <div class="col-50">
+
+                                                               <input type="text" id="fname" name="firstname" placeholder="Firstname*">
+
+                                                               
+                                                               <input type="text" id="lname" name="lastname" placeholder="Lastname">
+
+
+                                                               <div class="row">
+
+                                                                 
+                                                                 <div class="col-50">
+                                                                   <input type="text" id="zip" name="people" placeholder="No. of People" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+                                                                 </div>
+
+                                                                 <div class="col-50">
+                                                                   <label for="zip">Date:</label>
+                                                                   <input type="date" id="zip" name="zip">
+                                                                 </div> 
+
+                                                                 <div class="col-50">
+                                                                 <select class="form-control" id="select" >
+                                                                      <option value="0">Package Name</option>
+                                                                      <option value="1">Recording</option>
+                                                                      <option value="2">Mixing and Mastering</option>
+                                                                      <option value="3">Space Booking</option>
+                                                                    </select>
+                                                                 </div>
+                                                               </div>
+                                                             </div>
+
+                                                             <div class="col-50">
+                                                             <input type="text" id="email" name="email" placeholder="example@example.com">
+
+                                                               <input type="text" id="phone" name="phonenumber" placeholder="Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+
+                                                               <input type="text" id="city" name="city" value="Nairobi, Kenya" placeholder="City">
+
+                                                              <div class="row">
+                                                                <div class="col-50">
+                                                                <label for="zip"><b><small>Time:</small></b></label>
+                                                                <input type="time" value="13:00" step="900">
+                                                                </div>
+
+                                                              </div>
+                                                            </div>
+
+                                                          </div>
+
+                                                        </form>
+                                                      </div>
+                                                    </div>
+
+                                              </div> 
+                                       </div>
+                           <div class="modal-footer d-flex justify-content-center">
+                                    <button class="book"> Book Now !</button>
+                            </div>
+                         </div>
+                        </div>
+                  </div>
+
+             </section>
+
+           
+             <section class="pricing section" id="pricing">
+                <h2 class="section__title">Audio and Video Packages </h2>
+              
+
+                <div class="card__container grid">
+
+                    <!--==================== CARD 1 ====================-->
+                <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 7500 </span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/free-coin.png" alt="" class="card__header-img">
+                        </div>
+                        
+                        <span class="card__header-subtitle"> Package </span>
+                        <h1 class="card__header-title">Entails :</h1>
+                    </header>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Episode < 60 minutes </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Audio Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Mixing and Mastering</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Flexible Booking</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Editing</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Pro Production Support</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Teaser Video</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> 2 edit reviews </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Hosting 3 People </p>
+                        </li>
+                    </ul>
                 </article>
 
+                <!--==================== CARD 2 ====================-->
+                <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month">9000</span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/pro-coin.png" alt="" class="card__header-img">
+                        </div>
+    
+                        <span class="card__header-subtitle">Package</span>
+                        <h1 class="card__header-title">Entails :</h1>
+                    </header>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Episode < 120 minutes </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Audio Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Mixing and Mastering</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Flexible Booking</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Editing</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Pro Production Support</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Teaser Video</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> 2 edit reviews </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Hosting 3 People </p>
+                        </li>
+                    </ul>
+    
+                </article>
 
-                    
+                 <!--==================== CARD 3 ====================-->
+                 <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 10000</span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/enterprise-coin.png" alt="" class="card__header-img">
+                        </div>
+    
+                        <span class="card__header-subtitle">Package</span>
+                        <h1 class="card__header-title">Entails :</h1>
+                    </header>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Episode > 60 minutes </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description">Audio Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Mixing and Mastering</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Flexible Booking</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Recording</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Video Editing</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Pro Production Support</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Teaser Video</p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> 2 edit reviews </p>
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>
+                            <p class="card__list-description"> Hosting 4 People </p>
+                        </li>
+                    </ul>
+
+                     <!--=================BOOKING MODAL===================-->
+           
+                </article>
+
                 </div>
             </section>
+
 
             <!--==================== BREAKK SEC 2 ====================-->
             <section class="break__sec-2 section">
@@ -932,31 +1211,29 @@ add_view($conn, $visitor_ip, $page_id);
                             </div>
 
                         </div>
-                        <form action="index.php#contact" class="contact__form grid" method="POST">
-                        <?php include (ROOT_PATH . "/app/helpers/formErrors.php")?>
-
+                        <form action="#" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Name </label>
-                                <input type="text" class="contact__input" name="name" value="<?php echo $name?>">
+                                <input type="text" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Email </label>
-                                <input type="email" class="contact__input" name="email" value="<?php echo $email?>">
+                                <input type="email" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Project </label>
-                                <input type="text" class="contact__input" name="project" value="<?php echo $project?>">
+                                <input type="text" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Message </label>
-                                <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                             </div>
                             <div>
-                            <button type="submit" name="submit_message" class="button button--flex" style=" border:none;">
+                                <a href="#" class="button button--flex">
                                     Send Message
                                     <i class="uil uil-message button__icon"></i>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </form>
@@ -974,7 +1251,7 @@ add_view($conn, $visitor_ip, $page_id);
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
-                        <h1 class="footer__title">BlueBerry Studios.</h1>
+                        <h1 class="footer__title">Blueberry Studios.</h1>
                         <span class="footer__subtitle">For Businesses, entrepreneurs and thought eiders.</span>
                     </div>
                     <ul class="footer__links">
@@ -1006,7 +1283,7 @@ add_view($conn, $visitor_ip, $page_id);
                     </div>
                 </div>
 
-                <p class="footer__copy">&#169; BlueBerry Studios. All Rights Reserved.</p>
+                <p class="footer__copy">&#169; Blueberry Studios. All Rights Reserved.</p>
             </div>
 
             
@@ -1022,6 +1299,15 @@ add_view($conn, $visitor_ip, $page_id);
         <script src="assets/js//swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
-        <script src="assets/js/mainJs.js"></script>
+        <script src="assets/js/mainJs.js"> </script>
+
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+            })
+        </script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
