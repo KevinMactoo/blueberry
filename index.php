@@ -14,6 +14,9 @@
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <title> Blueberry Studios || Welcome  </title>
 </head>
     <body>
@@ -40,12 +43,12 @@
                 </a>
             </li>
             <li class="nav__item">
-                <a href="#pricing" class="nav__link">
+                <a href="#pricing__audio" class="nav__link">
                 <i class="uil uil-coins nav__icon"></i> Pricing
                 </a>
             </li>
             <li class="nav__item">
-                <a href="#gallery" class="nav__link">
+                <a href="#portfolio" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i> Gallery
                 </a>
             </li>
@@ -145,6 +148,7 @@
                 <div class="about__container container grid">
                     
                     <p class="about__img">
+
                         Blueberry Studios is one of the most renowned media centers in Nairobi.
                         The studio consists of 2 recording and podcasting rooms with
                         state-of-the-art hardware, plug-ins and sets that will have your projects 
@@ -186,9 +190,8 @@
                 </div>
 
                 <div class="plan__buttons grid">
-                <button class="card__button"> Audio </button>
-                <button class="card__button"> Video</button>
-
+                <button class="card__button" href="pricing__audio"> Audio <i class="uil uil-microphone button__icon"></i> </button>
+                <button class="card__button" href="pricing__video"> Video <i class="uil uil-video button__icon"></i> </button>
                 </div>
 
         
@@ -202,7 +205,7 @@
 
    
             <!--==================== PRICING ====================-->
-            <section class="pricing section" id="pricing">
+            <section class="pricing section" id="pricing__audio">
 
                 <h2 class="section__title">Audio Packages </h2>
               
@@ -223,8 +226,8 @@
                             <img src="assets/images/free-coin.png" alt="" class="card__header-img">
                         </div>
                         
-                        <span class="card__header-subtitle"> Package </span>
-                        <h1 class="card__header-title">Entails :</h1>
+                        <span class="card__header-subtitle"> KSH </span>
+                        <h1 class="card__header-title">7500</h1>
                     </header>
                     <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
 
@@ -273,72 +276,6 @@
                     
                 </article>
 
-                  <!--==================== CARD 1-1 ====================-->
-                  <article class="card__content grid">
-                    <div class="card__pricing">
-                        <div class="card__pricing-number">
-                            <span class="card__pricing-symbol">Kshs</span>
-                        </div>
-                        <span class="card__pricing-month"> 7500 </span>
-                    </div>
-    
-                    <header class="card__header">
-                        <div class="card__header-circle grid">
-                            <img src="assets/images/free-coin.png" alt="" class="card__header-img">
-                        </div>
-                        
-                        <span class="card__header-subtitle"> Package </span>
-                        <h1 class="card__header-title">Entails :</h1>
-                    </header>
-                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
-
-                    <ul class="card__list grid">
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description">Episode < 60 minutes </p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description">Audio Recording</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Mixing and Mastering</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Flexible Booking</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Video Recording</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Video Editing</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Pro Production Support</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Teaser Video</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> 2 edit reviews </p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Hosting 3 People </p>
-                        </li>
-                    </ul>
-                    
-                </article>
-
-
-               
                 <!--==================== CARD 2 ====================-->
                 <article class="card__content grid">
                     <div class="card__pricing">
@@ -753,66 +690,10 @@
             <section class="break__sec-2 section">
             </section>
 
-             <!--==================== GALLERY ====================-->
-             <section class="gallery section" id="gallery">
-                <div class="gallery__container container grid">
-                    <div class="gallery__content grid">
-
-                    <!-- social media -->
-                        <div class="gallery__social">
-                            <a href="" target="_blank" class="gallery__social-icon"> 
-                            <i class="uil uil-linkedin-alt"></i>
-
-                            </a>
-
-                            <a href="" target="_blank" class="gallery__social-icon"> 
-                            <i class="uil uil-instagram-alt"></i>
-
-                            </a>
-
-                            <a href="" target="_blank" class="gallery__social-icon"> 
-                            <i class="uil uil-facebook"></i>
-
-                            </a>
-
-                            <a href="" target="_blank" class="gallery__social-icon"> 
-                            <i class="uil uil-whatsapp-alt"></i>
-
-                            </a>
-                        </div>
-
-                        <!-- hero image -->
-                        <div class="gallery__image">
-                        <image class="gallery__blob-img" src="assets/images/portfolio.png"/>
-
-
-                        </div>
-
-                        <!-- hero text -->
-                        <div class="gallery__data">
-
-                        <h1 class="gallery__title">Our Work</h1>
-
-                        <h3 class="gallery__subtitle">
-                        We Focus on simplifying the process of podcast production.
-                        </h3>
-
-                        <p class="gallery__description">
-                        For Businesses, entrepreneurs and thought eiders.
-
-                        </p>
-
-                        <a href="#pricing" class="button--gallery button--flex">
-                        View Portfolio<i class="uil uil-scenery button--home__icon"></i>
-                        </a>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
 
 
             <!--==================== SERVICES ====================-->
+            
             <section class="services section" id="services">
                 <h2 class="section__title">Services</h2>
                     <span class="section__subtitle">What we offer</span>
@@ -823,30 +704,44 @@
                                     <i class="uil uil-microphone services__icon"></i>
                                     <h3 class="services__title"> Recording</h3>
                                 </div>
-                                <span class="button button--flex button--small button--link services__button">
+                                <a href="#" data-toggle="modal" data-target="#recording">
+                                <span class="button button--flex button--small button--link"  style="border:none; style-type:none;">
                                     Learn More.
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </span>
+                                    </a>
 
-                                <div class="services__modal">
-                                    <div class="services__modal-content">
-                                        <h4 class="services__modal-title">Recording</h4>
-                                        <i class="uil uil-times services__modal-close"></i>
+                            </div>
+                            
+                            <!--Recording Modal -->
+                            <div class="modal fade" id="recording" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                  <h4 class="services__modal-title">Recording</h4>
+                                   
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <i class="uil uil-times services__modal-close"></i>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
 
-                                        <ul class="services__modal-services grid">
-
-                                            <li class="services__modal-service">
+                                  
+                                  <ul class="services__modal-services grid">
+                                      
+                                  <li class="services__modal-service">
                                                 <i class="uil uil-check-circle services__modal-icon"></i>
                                                 <p>Whether you're recording a podcast, show, or voiceover,
                                                  we can handle it all at a small cost. We pride ourselves on the
                                                   ability to produce high-quality recordings in the most
-                                                   comfortable spaces.</p>
+                                                   comfortable spaces.
+                                                </p>
+                                    </li>
+                                    </ul>
 
-                                            </li>                                      
-   
-                                        </ul>
-                                    </div>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
                         <!--==================== SERVICE 2 ====================-->
                             <div class="services__content">
@@ -854,10 +749,13 @@
                                     <i class="uil uil-sliders-v services__icon"></i>
                                     <h3 class="services__title"> Mixing & Mastering</h3>
                                 </div>
-                                <span class="button button--flex button--small button--link services__button">
+                                
+                                <a href="#" data-toggle="modal" data-target="#mixing">
+                                <span class="button button--flex button--small button--link"  style="border:none; style-type:none;">
                                     Learn More.
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </span>
+                                    </a>
 
                                 <div class="services__modal">
                                     <div class="services__modal-content">
@@ -880,16 +778,50 @@
                                     </div>
                                 </div>
                             </div>
+
+                             <!--Mixing and Mastering  Modal -->
+                             <div class="modal fade" id="mixing" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h4 class="services__modal-title">Mixing & Mastering</h4>
+                                   
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <i class="uil uil-times services__modal-close"></i>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+
+                                  
+                                  <ul class="services__modal-services grid">
+
+                                            <li class="services__modal-service">
+                                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                                <p>The Blueberry studios are equipped with hardware and plug-ins which will
+                                                    give that high quality to your projects. 
+                                                    For those who prefer to record podcasts from the comforts of their own home,
+                                                    we also offer online mixing services. Send us your files, and we'll mix and 
+                                                    master them as if they got recorded right here.</p>
+
+                                            </li>
+  
+                                        </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                         <!--==================== SERVICE 3 ====================-->
                             <div class="services__content">
                                 <div>
                                     <i class="uil uil-video services__icon"></i>
                                     <h3 class="services__title"> Space Booking </h3>
                                 </div>
-                                <span class="button button--flex button--small button--link services__button">
+                                <a href="#" data-toggle="modal" data-target="#space">
+                                <span class="button button--flex button--small button--link"  style="border:none; style-type:none;">
                                     Learn More.
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </span>
+                                    </a>
 
                                 <div class="services__modal">
                                     <div class="services__modal-content">
@@ -915,6 +847,38 @@
 
                         </div>
 
+                        
+                             <!--Space Booking Modal -->
+                             <div class="modal fade" id="space" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h4 class="services__modal-title">Space Booking</h4>
+                                   
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <i class="uil uil-times services__modal-close"></i>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+
+                                  
+                                  <ul class="services__modal-services grid">
+
+                                            <li class="services__modal-service">
+                                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                                <p>Are you searching for a space to carry out your production?
+                                                 Worry no more. We have an hourly charged package that is inclusive of
+                                                 a camera, strobe light, and backdrops. The space is ideal for both photos
+                                                 and film.</p>
+
+                                            </li>
+  
+                                        </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
                 
 
             </section>
@@ -922,88 +886,48 @@
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                <H2 class="section__title">Portfolio</H2>
+                <H2 class="section__title">Gallery</H2>
                 <span class="section__subtitle">Most Recent Work</span>
 
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
                 <!--==================== PORTFOLIO 1 ====================-->
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/portfolio1.jpg" alt="" class="portfolio__img">
+                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
                     
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title"> Test Data 1</h3>
-                        <p class="portfolio__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                        Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                        Cras et sapien est. Aenean gravida lorem nec odio bibendum
-                        </p>
-                        <a href="" class="button button--flex button--small portfolio__button">
-                            Demo 
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
+                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
                     </div>
 
                 </div>
                 <!--==================== PORTFOLIO 2 ====================-->
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/portfolio2.jpg" alt="" class="portfolio__img">
+                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
                     
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title"> Test Data 2 </h3>
-                        <p class="portfolio__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                        Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                        Cras et sapien est. Aenean gravida lorem nec odio bibendum
-                        </p>
-                        <a href="" class="button button--flex button--small portfolio__button">
-                            Demo 
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
+                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
                     </div>
 
                 </div>
                 <!--==================== PORTFOLIO 3 ====================-->
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/portfolio3.jpg" alt="" class="portfolio__img">
+                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
                     
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title"> Test Data 3 </h3>
-                        <p class="portfolio__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                        Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                        Cras et sapien est. Aenean gravida lorem nec odio bibendum
-                        </p>
-                        <a href="" class="button button--flex button--small portfolio__button">
-                            Demo 
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
+                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
                     </div>
 
                 </div>
                 <!--==================== PORTFOLIO 4 ====================-->
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/portfolio1.jpg" alt="" class="portfolio__img">
+                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
                     
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title"> Test Data 4 </h3>
-                        <p class="portfolio__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                        Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                        Cras et sapien est. Aenean gravida lorem nec odio bibendum
-                        </p>
-                        <a href="" class="button button--flex button--small portfolio__button">
-                            Demo 
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
+                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
                     </div>
 
                 </div>
@@ -1022,159 +946,6 @@
 
                 </div>
 
-                
-
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-                <div class="project__bg">
-                    <div class="project__container grid">
-                        <div class="project__data">
-                            <h2 class="project__title">You have a new project? </h2>
-                                <p class="project__description">Contact me now ad get a 30% discount </p>
-                                <a href="#contact" class="button button--flex button--white">
-                                    Contact Me
-                                    <i class="uil uil-message project__icon button__icon"></i>
-                                </a>
-
-                        </div>
-
-                        <img src="assets/images/heflowered.png" alt="" class="project__img">
-                
-                    </div>
-                </div>
-
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                <h2 class="section__title">Testimonials</h2>
-                    <span class="section__subtitle">What My Clients Say</span>
-                    
-                    <div class="testimonial__container container swiper-container">
-                    <div class="swiper-wrapper">
-                    <!--==================== TESTIMONIAL 1 ====================-->
-                        <div class="testimonial__content swiper-slide">
-                            <div class="testimonial__data">
-                                <div class="testimonial__header">
-                                    <img src="assets/images/dk.jpg" alt="" class="testimonial__img">
-
-                                    <div>
-                                        <h3 class="testimonial__name"> Test Data 1</h3>
-                                        <span class="testimonial__client">Client</span>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                </div>
-                            </div>
-
-                            <p class="testimonial__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                            Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                            Cras et sapien est. Aenean gravida lorem nec odio bibendum,
-                            </p>
-                        </div>
-
-                    <!--==================== TESTIMONIAL 2 ====================-->
-                        <div class="testimonial__content swiper-slide">
-                            <div class="testimonial__data">
-                                <div class="testimonial__header">
-                                    <img src="assets/images/giddy.jpg" alt="" class="testimonial__img">
-
-                                    <div>
-                                        <h3 class="testimonial__name"> Test Data 2</h3>
-                                        <span class="testimonial__client">Client</span>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                </div>
-                            </div>
-
-                            <p class="testimonial__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                            Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                            Cras et sapien est. Aenean gravida lorem nec odio bibendum,
-                            </p>
-                        </div>
-
-                    <!--==================== TESTIMONIAL 3 ====================-->
-                        <div class="testimonial__content swiper-slide">
-                            <div class="testimonial__data">
-                                <div class="testimonial__header">
-                                    <img src="assets/images/da4.jpg" alt="" class="testimonial__img">
-
-                                    <div>
-                                        <h3 class="testimonial__name"> Test Data 3</h3>
-                                        <span class="testimonial__client">Client</span>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                </div>
-                            </div>
-
-                            <p class="testimonial__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                            Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                            Cras et sapien est. Aenean gravida lorem nec odio bibendum,
-                            </p>
-                        </div>
-
-                    <!--==================== TESTIMONIAL 4 ====================-->
-                        <div class="testimonial__content swiper-slide">
-                            <div class="testimonial__data">
-                                <div class="testimonial__header">
-                                    <img src="assets/images/mac.jpg" alt="" class="testimonial__img">
-
-                                    <div>
-                                        <h3 class="testimonial__name"> Test Data 4</h3>
-                                        <span class="testimonial__client">Client</span>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                    <i class="uil uil-star testimonial__icon-star"></i>
-                                </div>
-                            </div>
-
-                            <p class="testimonial__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Maecenas ante ligula, vulputate non dictum sed, lobortis a risus. 
-                            Integer et purus eu justo ullamcorper pellentesque a quis mi.
-                            Cras et sapien est. Aenean gravida lorem nec odio bibendum,
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- add pagination -->
-                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
-                    </div>
                 
 
             </section>
@@ -1246,6 +1017,8 @@
             </section>
         </main>
 
+        
+
         <!--==================== FOOTER ====================-->
         <footer class="footer">
             <div class="footer__bg">
@@ -1309,5 +1082,10 @@
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+
+
+            <script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+        </body>
 </html>
