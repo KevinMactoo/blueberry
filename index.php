@@ -493,7 +493,7 @@
                                               </div> 
                                        </div>
                            <div class="modal-footer d-flex justify-content-center">
-                                    <button class="book"> Book Now !</button>
+                                    <button class="book" class="close" data-dismiss="modal"> Book Now !</button>
                             </div>
                          </div>
                         </div>
