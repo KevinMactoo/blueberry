@@ -157,9 +157,7 @@
 
 
                         <div class="about__info">
-                        
-
-                            <div>
+                    
                                 <span class="about__info-name">
                                     Blueberry Studios is one of the most renowned media centers in Nairobi.
                                     The studio consists of 2 recording and podcasting rooms with
@@ -167,7 +165,7 @@
                                     sounding better than you could ever have imagined. 
                                     The studio also has a photo / film studio, which is sure to meet your needs.
                                  </span>
-                            </div>
+                        
 
                         </div>
                     </div>
@@ -784,7 +782,7 @@
             <section class="services section" id="services">
                 <h2 class="section__title">Services</h2>
                     <span class="section__subtitle">What we offer</span>
-                        <div class="services__conatainer container grid">
+                        <div class="services__conatainer grid">
                         <!--==================== SERVICE 1 ====================-->
                             <div class="services__content">
                                 <div>
@@ -986,7 +984,7 @@
             <section class="services section" id="services">
                 <h2 class="section__title">Booking</h2>
                     <span class="section__subtitle">Make a quick booking</span>
-                        <div class="services__conatainer container grid">
+                        <div class="services__conatainer grid">
                         <!--==================== BOOKING 1 ====================-->
                         <button class="card__button" data-toggle="modal" data-target="#modalBookingForm">
                             <div class="" style="color:#fff;">
@@ -1083,7 +1081,8 @@
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
         
-
+        </body>
+        
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js//swiper-bundle.min.js"></script>
 
@@ -1103,5 +1102,5 @@
             <script src="jquery.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 
-        </body>
+
 </html>

@@ -302,7 +302,7 @@ img
 
 .home__container
 {
-    gap: .4rem;
+    gap: .0rem;
 }
 .home__content
 {
@@ -1259,7 +1259,7 @@ body.dark-theme
 .change-theme
 {
     font-size: 1.25rem;
-    color: #000;
+    color: #fff;
     margin-right: var(--mb-1);
     cursor: pointer;
 }
@@ -1420,7 +1420,7 @@ body.dark-theme
     .contact__container,
     .footer__container
     {
-        grid-template-columns: repeat(2, 1fr);
+        margin:0px;
     }
     .qualification__sections
     {
