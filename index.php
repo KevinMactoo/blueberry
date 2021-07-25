@@ -729,20 +729,20 @@
                      <div class="carousel-inner">
                          
                        <div class="carousel-item active">
-                         <img class="d-block w-100" src="assets/images/gallerry1.jpg" alt="First slide"> 
+                         <img class="d-block w-100" src="assets/images/gallery0.jpg" alt="First slide"> 
                        </div>
                        <div class="carousel-item">
-                         <img class="d-block w-100" src="assets/images/gallerry2.jpg" alt="First slide"> 
+                         <img class="d-block w-100" src="assets/images/gallery1.jpg" alt="First slide"> 
                        </div>
                        <div class="carousel-item">
-                         <img class="d-block w-100" src="assets/images/gallerry3.jpg" alt="Second slide">
+                         <img class="d-block w-100" src="assets/images/gallery2.jpg" alt="Second slide">
                        </div>
                        <div class="carousel-item">
-                         <img class="d-block w-100" src="assets/images/gallerry4.jpg" alt="Third slide">
+                         <img class="d-block w-100" src="assets/images/gallery3.jpg" alt="Third slide">
                        </div>
 
                        <div class="carousel-item">
-                         <img class="d-block w-100" src="assets/images/gallerry5.jpg" alt="Third slide">
+                         <img class="d-block w-100" src="assets/images/gallery4.jpg" alt="Third slide">
                        </div>
                      </div>
                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
