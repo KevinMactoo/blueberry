@@ -729,7 +729,7 @@
                      <div class="carousel-inner">
                          
                        <div class="carousel-item active">
-                         <img class="d-block w-100" src="assets/images/gallerry1.jpg" style="height:738px;"> 
+                         <img class="d-block w-100" src="assets/images/gallerry1.jpg" style=""> 
                        </div>
                        <div class="carousel-item">
                          <img class="d-block w-100" src="assets/images/gallerry2.jpg" alt="First slide"> 
