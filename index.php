@@ -15,11 +15,17 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        <link rel="stylesheet" href="assets/css/styles.scss">
+
         <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
         <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" />
     <title> Blueberry Studios || Welcome  </title>
+
+    <script>
+   
+    </script>
 </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -705,6 +711,72 @@
             <section class="break__sec-2 section">
             </section>
 
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <H2 class="section__title">Gallery</H2>
+                <span class="section__subtitle">Most Recent Work</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                <!--==================== PORTFOLIO 1 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
+                    
+
+                    <div class="portfolio__data">
+                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
+                    </div>
+
+                </div>
+                <!--==================== PORTFOLIO 2 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
+                    
+
+                    <div class="portfolio__data">
+                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
+                    </div>
+
+                </div>
+                <!--==================== PORTFOLIO 3 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
+                    
+
+                    <div class="portfolio__data">
+                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
+                    </div>
+
+                </div>
+                <!--==================== PORTFOLIO 4 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
+                    
+
+                    <div class="portfolio__data">
+                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
+                    </div>
+
+                </div>
+
+                </div>
+               
+                 <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+                
+
+            </section>
+
 
 
             <!--==================== SERVICES ====================-->
@@ -906,75 +978,8 @@
                 
 
             </section>
+     
 
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <H2 class="section__title">Gallery</H2>
-                <span class="section__subtitle">Most Recent Work</span>
-
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-                <!--==================== PORTFOLIO 1 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
-                    
-
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-                <!--==================== PORTFOLIO 2 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
-                    
-
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-                <!--==================== PORTFOLIO 3 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
-                    
-
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-                <!--==================== PORTFOLIO 4 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
-                    
-
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-
-                </div>
-               
-                 <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-
-                </div>
-
-                
-
-            </section>
-
-            
 
             <!--==================== FOOTER BOOKING ====================-->
            
@@ -1021,15 +1026,23 @@
 
         
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
+          <!--==================== FOOTER ====================-->
+          <footer class="footer">
             <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">Blueberry Studios.</h1>
-                        <span class="footer__subtitle">For Businesses, entrepreneurs and thought eiders.</span>
-                    </div>
-                    <ul class="footer__links">
+            <div class="footer__menu container">
+                <ul class="footer__links container__footer__link">
+                        <li>
+                            <a href="#" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#pricing" class="footer__link">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="footer__link">Gallery</a>
+                        </li>
                         <li>
                             <a href="#services" class="footer__link">Services</a>
                         </li>
@@ -1039,9 +1052,35 @@
                         <li>
                             <a href="#contact" class="footer__link">Contact</a>
                         </li>
+                        
                     </ul>
 
-                    <div class="footer__socials">
+                </div>
+
+                    <div class="main__footer__title container">
+                        <h1 class="footer__title__main" style="color:#fff"> Blueberry Studios.</h1>
+                        <span class="footer__subtitle__main" style="color:#fff">For Businesses, entrepreneurs and thought eiders.</span>
+                    </div>
+
+                <div class="footer__container container grid">
+                    <div>
+                        <h2 class="footer__title">BlueBerry Studios.</h2>
+                        <span class="footer__subtitle"><i class="uil uil-map-marker-shield"></i> Westlands</span>
+                        <span class="footer__subtitle"> P.O.Box 1231345, Nairobi</span>
+                    </div>
+                    <div>
+                        <h2 class="footer__title">Contact Phone.</h2>
+                        <span class="footer__subtitle"><i class="uil uil-phone"></i> +254 725 108407</span>
+                    </div>
+                    <div>
+                        <h2 class="footer__title"> Working Hours.</h2>
+                        <span class="footer__subtitle"><i class="uil uil-clock"></i> Monday - Sunday : 10A.M - 4P.M</span>
+                    </div>
+                    
+
+                    
+                </div>
+                <div class="footer__socials container">
                         <a href="" target="_blank" class="footer__social">
                             <i class="uil uil-facebook"></i>
                         </a>
@@ -1056,9 +1095,8 @@
                         <i class="uil uil-whatsapp-alt"></i>
                         </a>
                     </div>
-                </div>
 
-                <p class="footer__copy">&#169; Blueberry Studios. All Rights Reserved.</p>
+                <p class="footer__copy">&#169; BlueBerry Studios. All Rights Reserved.</p>
             </div>
 
             
