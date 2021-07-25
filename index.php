@@ -185,18 +185,16 @@
                                 <span class="about__info-name">Thursday </span>
                                 <span class="about__info-name">Friday </span>
                                 <span class="about__info-name">Saturday </span>
-                                <span class="about__info-name">Sunday </span>
                             </div>
 
                             <div>
                                 <span class="about__info-title">Time</span>
-                                <span class="about__info-name"> 10 A.M - 4 P.M </span>
-                                <span class="about__info-name"> 10 A.M - 4 P.M </span>
-                                <span class="about__info-name"> 10 A.M - 4 P.M </span>
-                                <span class="about__info-name"> 10 A.M - 4 P.M </span>
-                                <span class="about__info-name"> 10 A.M - 4 P.M </span>
-                                <span class="about__info-name"> 10 A.M - 4 P.M </span>
-                                <span class="about__info-name"> 10 A.M - 4 P.M </span>
+                                <span class="about__info-name"> 8 A.M - 5 P.M </span>
+                                <span class="about__info-name"> 8 A.M - 5 P.M </span>
+                                <span class="about__info-name"> 8 A.M - 5 P.M </span>
+                                <span class="about__info-name"> 8 A.M - 5 P.M </span>
+                                <span class="about__info-name"> 8 A.M - 5 P.M </span>
+                                <span class="about__info-name"> 9 A.M - 4 P.M </span>
                             </div>
 
                         </div>
@@ -1033,7 +1031,8 @@
                     </div>
                     <div>
                         <h2 class="footer__title"> Working Hours.</h2>
-                        <span class="footer__subtitle"><i class="uil uil-clock"></i> Monday - Sunday : 10A.M - 4P.M</span>
+                        <span class="footer__subtitle"><i class="uil uil-clock"></i> Monday - Friday : 8 A.M - 5 P.M</span><br>
+                        <span class="footer__subtitle"><i class="uil uil-clock"></i> Saturday : 9 A.M - 4 P.M</span>
                     </div>
                     
 
