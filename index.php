@@ -727,7 +727,11 @@
                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                      </ol>
                      <div class="carousel-inner">
+                         
                        <div class="carousel-item active">
+                         <img class="d-block w-100" src="assets/images/gallerry1.jpg" style="" alt="First slide"> 
+                       </div>
+                       <div class="carousel-item">
                          <img class="d-block w-100" src="assets/images/gallerry2.jpg" alt="First slide"> 
                        </div>
                        <div class="carousel-item">
@@ -1016,7 +1020,8 @@
 
                     <div class="main__footer__title container">
                         <h1 class="footer__title__main" style="color:#fff"> Blueberry Studios.</h1>
-                        <span class="footer__subtitle__main" style="color:#fff">For Businesses, entrepreneurs and thought eiders.</span>
+                        <span class="footer__subtitle__main" style="color:#fff"> We focus on simplifying the process of podcast production for businesses, entrepreneurs and thought leaders.
+                       </span>
                     </div>
 
                 <div class="footer__container container grid">

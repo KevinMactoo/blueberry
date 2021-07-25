@@ -90,7 +90,7 @@
 html
 {
     scroll-behavior: smooth;
-    font-size: medium;
+    font-size: small;
     overflow-x: hidden ;
 }
 body
