@@ -974,69 +974,47 @@
 
             </section>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                    <span class="section__subtitle">Get In Touch</span>
+            
 
-                    <div class="contact__container container grid">
-                        <div>
-                            <div class="contact__information">
-                                <i class="uil uil-phone contact__icon"></i>
+            <!--==================== FOOTER BOOKING ====================-->
+           
+            <section class="services section" id="services">
+                <h2 class="section__title">Booking</h2>
+                    <span class="section__subtitle">Make a quick booking</span>
+                        <div class="services__conatainer container grid">
+                        <!--==================== BOOKING 1 ====================-->
+                        <button class="card__button" data-toggle="modal" data-target="#modalBookingForm">
+                            <div class="" style="color:#fff;">
                                 <div>
-                                <h3 class="contact__title"> Call Me </h3>
-                                <span class="contact__subtitle"> +254 725 108407</span>
+                                    <i class="uil uil-microphone services__icon" style="color:#fff;"></i>
+                                    <span class="services__title">Podcast Recording</span>
                                 </div>
-                            </div>
+                            </div></button>
+                            
+                        <!--==================== BOOKING 2 ====================-->
+                        <button class="card__button" data-toggle="modal" data-target="#modalBookingForm">
+                            <div class="#">
+                                <div>
+                                    <i class="uil uil-sliders-v services__icon" style="color:#fff;"></i>
+                                    <span class="services__title"> Mixing & Mastering</span>
+                                </div>
+                              
+                            </div></button>
 
-                            <div class="contact__information">
-                                <i class="uil uil-envelope contact__icon"></i>
+                        <!--==================== BOOKING 3 ====================-->
+                        <button class="card__button" data-toggle="modal" data-target="#modalBookingForm">
+                            <div class="#">
                                 <div>
-                                <h3 class="contact__title"> Email Me </h3>
-                                <span class="contact__subtitle">example@gmail.com</span>
+                                    <i class="uil uil-video services__icon" style="color:#fff;"></i>
+                                    <span class="services__title"> Space Booking </span>
                                 </div>
-                            </div>
 
-                            <div class="contact__information">
-                                <i class="uil uil-map-marker contact__icon"></i>
-                                <div>
-                                <h3 class="contact__title"> Location </h3>
-                                <span class="contact__subtitle"> Nairobi </span>
-                                </div>
-                            </div>
+                            </div></button>
 
                         </div>
-                        <form action="#" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label"> Name </label>
-                                <input type="text" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label"> Email </label>
-                                <input type="email" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label"> Project </label>
-                                <input type="text" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label"> Message </label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                            </div>
-                            <div>
-                                <a href="#" class="button button--flex">
-                                    Send Message
-                                    <i class="uil uil-message button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </form>
 
-                    </div>
 
-                    
-
+                
 
             </section>
         </main>
