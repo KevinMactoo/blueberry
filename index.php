@@ -236,7 +236,7 @@
                         <div class="card__pricing-number">
                             <span class="card__pricing-symbol">Kshs</span>
                         </div>
-                        <span class="card__pricing-month"> 7500 </span>
+                        <span class="card__pricing-month"> 2000 </span>
                     </div>
     
                     <header class="card__header">
@@ -245,14 +245,14 @@
                         </div>
                         
                         <span class="card__header-subtitle">Package Name</span>
-                        <h1 class="card-title">Silver Plus Pod</h1>
+                        <h1 class="card-title"> Silver Pod</h1>
                     </header>
                     <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
 
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description">Episode < 60 minutes </p>
+                            <p class="card__list-description">Episode - 30 minutes </p>
                         </li>
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
@@ -268,27 +268,7 @@
                         </li>
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Video Recording</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Video Editing</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Pro Production Support</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Teaser Video</p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> 2 edit reviews </p>
-                        </li>
-                        <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>
-                            <p class="card__list-description"> Hosting 3 People </p>
+                            <p class="card__list-description"> Hosting 1 People </p>
                         </li>
                     </ul>
                     
@@ -421,61 +401,54 @@
     
                 </article>
               <!--=================BOOKING MODAL===================-->
-                                              <div class="modal fade" id="modalBookingForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                              aria-hidden="true">
-                                              <div class="modal-dialog" role="document">
-                                                <div class="modal-content">
-                                                  <div class="modal-header text-center">
-                                                    <h4 class="modal-title w-100 font-weight-bold">Book Your Session</h4>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                      <span aria-hidden="true">&times;</span>
-                                                    </button>
+                  <div class="modal fade" id="modalBookingForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Book Your Session</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body mx-3">
+        
+                          <div class="row">
+                             <div class="col-75">
+                               <div class="container">
+                                 <form action="/action_page.php">
+                                   <div class="row">
+                                     <div class="col-50">
+                                       <input type="text" id="fname" name="firstname" placeholder="Firstname*">
+                                       
+                                       <input type="text" id="lname" name="lastname" placeholder="Lastname">
+                                       <div class="row">
+                                         
+                                         <div class="col-50">
+                                           <input type="text" id="zip" name="people" placeholder="No. of People" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+                                             </div>
+
+                                             <div class="col-50">
+                                               <label for="zip">Date:</label>
+                                               <input type="date" id="zip" name="zip">
+                                             </div> 
+
+                                              <div class="col-50">
+                                              <select class="form-control" id="select" >
+                                                   <option value="0">Package Name</option>
+                                                   <option value="1">Recording</option>
+                                                   <option value="2">Mixing and Mastering</option>
+                                                   <option value="3">Space Booking</option>
+                                                     </select>
                                                   </div>
-                                                  <div class="modal-body mx-3">
-                                
-                                                  <div class="row">
-                                                     <div class="col-75">
-                                                       <div class="container">
-                                                         <form action="/action_page.php">
+                                                </div>
+                                         </div>
 
-                                                           <div class="row">
-                                                             <div class="col-50">
+                                              <div class="col-50">
+                                            <input type="text" id="email" name="email" placeholder="example@example.com">
 
-                                                               <input type="text" id="fname" name="firstname" placeholder="Firstname*">
-
-                                                               
-                                                               <input type="text" id="lname" name="lastname" placeholder="Lastname">
-
-
-                                                               <div class="row">
-
-                                                                 
-                                                                 <div class="col-50">
-                                                                   <input type="text" id="zip" name="people" placeholder="No. of People" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
-                                                                 </div>
-
-                                                                 <div class="col-50">
-                                                                   <label for="zip">Date:</label>
-                                                                   <input type="date" id="zip" name="zip">
-                                                                 </div> 
-
-                                                                 <div class="col-50">
-                                                                 <select class="form-control" id="select" >
-                                                                      <option value="0">Package Name</option>
-                                                                      <option value="1">Recording</option>
-                                                                      <option value="2">Mixing and Mastering</option>
-                                                                      <option value="3">Space Booking</option>
-                                                                    </select>
-                                                                 </div>
-                                                               </div>
-                                                             </div>
-
-                                                             <div class="col-50">
-                                                             <input type="text" id="email" name="email" placeholder="example@example.com">
-
-                                                               <input type="text" id="phone" name="phonenumber" placeholder="Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
-
-                                                               <input type="text" id="city" name="city" value="Nairobi, Kenya" placeholder="City">
+                                         <input type="text" id="phone" name="phonenumber" placeholder="Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+                                             <input type="text" id="city" name="city" value="Nairobi, Kenya" placeholder="City">
 
                                                               <div class="row">
                                                                 <div class="col-50">
@@ -495,11 +468,35 @@
                                               </div> 
                                        </div>
                            <div class="modal-footer d-flex justify-content-center">
-                                    <button class="book" class="close" data-dismiss="modal"> Book Now !</button>
+                                    <button class="book" class="close" data-dismiss="modal" data-toggle="modal" data-target="#success_tic"> Book Now !</button>
                             </div>
                          </div>
                         </div>
                   </div>
+
+                          
+<!--Success Modal -->
+<div id="success_tic" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <a class="close" href="#" data-dismiss="modal">&times;</a>
+      <div class="page-body">
+    <div class="head">  
+    <h1 style="text-align:center;"><div class="checkmark-circle">
+  <div class="background"></div>
+  <div class="checkmark draw"></div>
+</div><h1>
+    </div>
+
+    <h1 style="text-align:center; padding:20px;">Thank You</h1>
+      <p> We look foward to giving you an amazing experience.</p>
+  </div>
+</div>
+    </div>
+
+  </div>
 
              </section>
 
@@ -1007,6 +1004,10 @@
                 
 
             </section>
+
+
+
+
         </main>
 
         
