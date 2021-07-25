@@ -729,10 +729,7 @@
                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                      </ol>
                      <div class="carousel-inner">
-                     <div class="carousel-item active" >
-                         <img class="d-block w-100" src="assets/images/gallerry4.jpg" alt="First slide"> 
-                       </div>
-                       <div class="carousel-item">
+                       <div class="carousel-item active">
                          <img class="d-block w-100" src="assets/images/gallerry2.jpg" alt="First slide"> 
                        </div>
                        <div class="carousel-item">
