@@ -920,8 +920,8 @@ img
 /*==================== PRICE CARD====================*/
 .card__container {
     width: 100%;
-    padding: 5% 10% 3% 10%;
-    gap:0.1rem 0.3rem;
+    padding: 5% 20% 10% 20%;
+    gap:1.1rem .3rem;
   }
 .plan__buttons
 {
@@ -1035,6 +1035,7 @@ img
   .card__list-item {
     display: flex;
     align-items: center;
+    line-height: 1%;
   }
   
   .card__list-icon {
@@ -1043,6 +1044,8 @@ img
     margin-right: var(--mb-0-5);
   }
   .card__button {
+      text-align: center;
+      width: 100%;
     padding: 1.25rem;
     border: none;
     font-size: var(--normal-font-size);
