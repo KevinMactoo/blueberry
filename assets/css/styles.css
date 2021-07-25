@@ -840,6 +840,7 @@ img
 /*==================== PORTFOLIO ====================*/
 .portfolio__container
 {
+    margin-left: -8px;
     overflow: initial;
 
 }

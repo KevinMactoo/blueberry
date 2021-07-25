@@ -709,65 +709,53 @@
             <section class="break__sec-2 section">
             </section>
 
+   
+
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
                 <H2 class="section__title">Gallery</H2>
-                <span class="section__subtitle">Most Recent Work</span>
+                <span class="section__subtitle">Our gallery</span>
+
+    
 
                 <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-                <!--==================== PORTFOLIO 1 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
-                    
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                       <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                       <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                     <div class="carousel-item active" >
+                         <img class="d-block w-100" src="assets/images/gallerry4.jpg" alt="First slide"> 
+                       </div>
+                       <div class="carousel-item">
+                         <img class="d-block w-100" src="assets/images/gallerry2.jpg" alt="First slide"> 
+                       </div>
+                       <div class="carousel-item">
+                         <img class="d-block w-100" src="assets/images/gallerry3.jpg" alt="Second slide">
+                       </div>
+                       <div class="carousel-item">
+                         <img class="d-block w-100" src="assets/images/gallerry4.jpg" alt="Third slide">
+                       </div>
 
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-                <!--==================== PORTFOLIO 2 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
-                    
-
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-                <!--==================== PORTFOLIO 3 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry2.jpg" alt="" class="portfolio__img" height="500px">
-                    
-
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry3.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-                <!--==================== PORTFOLIO 4 ====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/images/gallerry4.jpg" alt="" class="portfolio__img" height="500px">
-                    
-
-                    <div class="portfolio__data">
-                        <img src="assets/images/gallerry5.jpg" alt="" class="portfolio__img" height="500px">
-                    </div>
-
-                </div>
-
+                       <div class="carousel-item">
+                         <img class="d-block w-100" src="assets/images/gallerry5.jpg" alt="Third slide">
+                       </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                       <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       <span class="sr-only">Next</span>
+                     </a>
                 </div>
                
-                 <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
 
                 </div>
 
