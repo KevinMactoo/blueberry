@@ -112,7 +112,7 @@
 
                             </a>
 
-                            <a href="" target="_blank" class="home__social-icon"> 
+                            <a href="https://www.facebook.com/Blueberrystudioke/" target="_blank" class="home__social-icon"> 
                             <i class="uil uil-facebook"></i>
 
                             </a>
@@ -1030,30 +1030,6 @@
           <footer class="footer">
             <div class="footer__bg">
             <div class="footer__menu container">
-                <ul class="footer__links container__footer__link">
-                        <li>
-                            <a href="#" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about" class="footer__link">About</a>
-                        </li>
-                        <li>
-                            <a href="#pricing" class="footer__link">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="#gallery" class="footer__link">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="#services" class="footer__link">Services</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio" class="footer__link">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="footer__link">Contact</a>
-                        </li>
-                        
-                    </ul>
 
                 </div>
 
@@ -1081,14 +1057,14 @@
                     
                 </div>
                 <div class="footer__socials container">
-                        <a href="" target="_blank" class="footer__social">
+                        <a href=" https://www.facebook.com/Blueberrystudioke/" target="_blank" class="footer__social">
                             <i class="uil uil-facebook"></i>
                         </a>
                         <a href="" target="_blank" class="footer__social">
                         <i class="uil uil-linkedin"></i>
 
                         </a>
-                        <a href="" target="_blank" class="footer__social">
+                        <a href="https://www.instagram.com/blueberrystudioske/" target="_blank" class="footer__social">
                         <i class="uil uil-instagram-alt"></i>
                         </a>
                         <a href="" target="_blank" class="footer__social">
