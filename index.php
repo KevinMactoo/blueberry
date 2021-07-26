@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
+<<<<<<< HEAD
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <link rel="stylesheet" href="assets/css/styles.scss">
@@ -26,6 +27,11 @@
     <script>
    
     </script>
+=======
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+    <title> BlueBerry Studios || Welcome  </title>
+>>>>>>> origin/davie
 </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -123,6 +129,12 @@
                             </a>
                         </div>
 
+<<<<<<< HEAD
+=======
+                        <!-- hero image -->
+                        <!--  -->
+
+>>>>>>> origin/davie
                         <!-- hero text -->
                         
                         <div class="home__data">
@@ -149,6 +161,7 @@
             <section class="about section" id="about">
 
                 <div class="about__container container grid">
+<<<<<<< HEAD
                     
                    
 
@@ -172,8 +185,34 @@
 
                     <div class="about__data">
                         <h2 class="section__title"> Opening Hours</h2><br>
+=======
+                    <!-- <img src="assets/images/undraw_Profile_re_4a55.png" alt="" class="about__img"> -->
 
+                    <div class="about__data">
+                        <p class="about__description">
+                        Blueberry Studios is one of the most renowned media centers in Nairobi.
+                        The studio consists of 2 recording and podcasting rooms with
+                        state-of-the-art hardware, plug-ins and sets that will have your projects 
+                        sounding better than you could ever have imagined. 
+                        The studio also has a photo / film studio, which is sure to meet your needs.
+                        </p>
+>>>>>>> origin/davie
 
+                        
+
+                        <div class="about__buttons">
+                            <a download="" href="#" class="button button--flex">
+                                Book Audio Session<i class="uil uil-microphone button__icon"></i>
+
+                            </a>
+                            <a download="" href="#" class="button button--flex">
+                                Book Audio & Video Session<i class="uil uil-video button__icon"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                    <h2 class="section__title"> Opening Hours</h2><br>
                         <div class="about__info">
                         
 
@@ -198,7 +237,13 @@
                             </div>
 
                         </div>
+<<<<<<< HEAD
                     </div>
+=======
+                        </div>
+
+
+>>>>>>> origin/davie
                 </div>
 
                 <div class="plan__buttons grid">
@@ -223,7 +268,16 @@
 
    
             <!--==================== PRICING ====================-->
+<<<<<<< HEAD
             <section class="pricing section" id="pricing__audio">
+=======
+            <section class="pricing section" id="pricing">
+                <h2 class="section__title"> Packages </h2>
+                <span class="section__subtitle"> Right Plan For You</span>
+                <div class="plan__buttons grid">
+                <h2 class="section__title"> Audio Packages </h2>
+                
+>>>>>>> origin/davie
 
                 <h2 class="section__title">Audio Packages </h2>
               
@@ -247,6 +301,7 @@
                         <span class="card__header-subtitle">Package Name</span>
                         <h1 class="card-title"> Silver Pod</h1>
                     </header>
+<<<<<<< HEAD
                     <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
 
                     <ul class="card__list grid">
@@ -266,6 +321,9 @@
                             <i class="uil uil-check card__list-icon"></i>Hosting 1 Person
                         </li>
                     </ul>
+=======
+                    <button class="card__button"> Book Now !</button>
+>>>>>>> origin/davie
                     
                 </article>
 
@@ -502,6 +560,7 @@
                         <span class="card__pricing-month"> 5500 </span>
                     </div>
     
+<<<<<<< HEAD
                     <header class="card__header">
                         <div class="card__header-circle grid">
                             <img src="assets/images/free-coin.png" alt="" class="card__header-img">
@@ -546,10 +605,12 @@
                         </li>
                     </ul>
                     
+=======
+>>>>>>> origin/davie
                 </article>
 
                 <!--==================== CARD 2 ====================-->
-                <article class="card__content grid">
+                <article class="card__content grid-card">
                     <div class="card__pricing">
                         <div class="card__pricing-number">
                             <span class="card__pricing-symbol">Kshs</span>
@@ -565,7 +626,13 @@
                         <span class="card__header-subtitle">Package Name</span>
                         <h1 class="card-title"> Ruby Plus Pod</h1>
                     </header>
+<<<<<<< HEAD
                     <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+=======
+                    <button class="card__button"> Book Now !</button>
+
+                    
+>>>>>>> origin/davie
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>Episode - 30 minutes
@@ -599,7 +666,11 @@
                             <i class="uil uil-check card__list-icon"></i>Hosting 2 People
                         </li>
                     </ul>
+<<<<<<< HEAD
                 
+=======
+    
+>>>>>>> origin/davie
                 </article>
 
                  <!--==================== CARD 3 ====================-->
@@ -619,7 +690,13 @@
                         <span class="card__header-subtitle">Package Name</span>
                         <h1 class="card-title">Sapphire Pro</h1>
                     </header>
+<<<<<<< HEAD
                     <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+=======
+                    <button class="card__button"> Book Now !</button>
+
+                    
+>>>>>>> origin/davie
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>Episode - 60 minutes
