@@ -1265,23 +1265,23 @@
                 </div>
 
                     <div class="main__footer__title container">
-                        <h1 class="footer__title__main" style="color:#fff"> Blueberry Studios.</h1>
+                        <h1 class="footer__title__main" style="color:#fff"> Blueberry Studios</h1>
                         <span class="footer__subtitle__main" style="color:#fff"> We focus on simplifying the process of podcast production for businesses, entrepreneurs and thought leaders.
                        </span>
                     </div>
 
                 <div class="footer__container container grid">
                     <div>
-                        <h2 class="footer__title">BlueBerry Studios.</h2>
+                        <h2 class="footer__title">BlueBerry Studios</h2>
                         <span class="footer__subtitle"><i class="uil uil-map-marker-shield"></i>Riverside Drive</span>
                        
                     </div>
                     <div>
-                        <h2 class="footer__title">Contact Phone.</h2>
+                        <h2 class="footer__title">Contact Phone</h2>
                         <span class="footer__subtitle"><i class="uil uil-phone"></i> +254 725 108407</span>
                     </div>
                     <div>
-                        <h2 class="footer__title"> Working Hours.</h2>
+                        <h2 class="footer__title"> Working Hours</h2>
                         <span class="footer__subtitle"><i class="uil uil-clock"></i> Monday - Friday : 8 A.M - 5 P.M</span><br>
                         <span class="footer__subtitle"><i class="uil uil-clock"></i> Saturday : 9 A.M - 4 P.M</span>
                     </div>
