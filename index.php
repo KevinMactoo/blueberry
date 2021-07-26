@@ -477,7 +477,7 @@
                           
 <!--Success Modal -->
 <div id="success_tic" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -490,7 +490,7 @@
 </div><h1>
     </div>
 
-    <h1 style="text-align:center; padding:20px;">Thank You</h1>
+    <h1 style="text-align:center; padding:20px;">Thank You!</h1>
       <p> We look foward to giving you an amazing experience.</p>
   </div>
 </div>
