@@ -263,7 +263,7 @@
                             <i class="uil uil-check card__list-icon"></i>Flexible Booking
                         </li>
                         <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>Hosting 1 People 
+                            <i class="uil uil-check card__list-icon"></i>Hosting 1 Person
                         </li>
                     </ul>
                     
@@ -499,7 +499,7 @@
                         <div class="card__pricing-number">
                             <span class="card__pricing-symbol">Kshs</span>
                         </div>
-                        <span class="card__pricing-month"> 2000 </span>
+                        <span class="card__pricing-month"> 5500 </span>
                     </div>
     
                     <header class="card__header">
@@ -508,10 +508,10 @@
                         </div>
                         
                         <span class="card__header-subtitle">Package Name</span>
-                        <h1 class="card-title"> Silver Pod</h1>
+                        <h1 class="card-title"> Ruby Pod</h1>
                     </header>
                     <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
-
+                 
                     <ul class="card__list grid">
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>Episode - 30 minutes
@@ -525,8 +525,24 @@
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>Flexible Booking
                         </li>
+                        
                         <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>Hosting 1 People 
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>1 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 1 Person
                         </li>
                     </ul>
                     
@@ -538,7 +554,7 @@
                         <div class="card__pricing-number">
                             <span class="card__pricing-symbol">Kshs</span>
                         </div>
-                        <span class="card__pricing-month">3000</span>
+                        <span class="card__pricing-month">7500</span>
                     </div>
     
                     <header class="card__header">
@@ -547,7 +563,7 @@
                         </div>
     
                         <span class="card__header-subtitle">Package Name</span>
-                        <h1 class="card-title"> Silver Plus Pod</h1>
+                        <h1 class="card-title"> Ruby Plus Pod</h1>
                     </header>
                     <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
@@ -563,11 +579,26 @@
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>Flexible Booking
                         </li>
+                        
                         <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>Hosting 2 People 
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>1 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 2 People
                         </li>
                     </ul>
-  
                 
                 </article>
 
@@ -577,7 +608,7 @@
                         <div class="card__pricing-number">
                             <span class="card__pricing-symbol">Kshs</span>
                         </div>
-                        <span class="card__pricing-month"> 5000</span>
+                        <span class="card__pricing-month"> 6500</span>
                     </div>
     
                     <header class="card__header">
@@ -586,7 +617,121 @@
                         </div>
     
                         <span class="card__header-subtitle">Package Name</span>
-                        <h1 class="card-title"> Silver Pro</h1>
+                        <h1 class="card-title">Sapphire Pro</h1>
+                    </header>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Episode - 60 minutes
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Audio Recording
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Mixing and Mastering
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Flexible Booking
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Cut down video 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>2 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 1 Person
+                        </li>
+                    </ul>
+    
+                </article>
+
+                   <!--==================== CARD 4 ====================-->
+                   <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 9000 </span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/free-coin.png" alt="" class="card__header-img">
+                        </div>
+                        
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card-title"> Sapphire Plus Pod</h1>
+                    </header>
+                    <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Episode - 60 minutes
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Audio Recording
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Mixing and Mastering
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Flexible Booking
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Cut down video 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>2 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 2 People
+                        </li>
+                    </ul>
+                    
+                </article>
+
+                <!--==================== CARD 5 ====================-->
+                <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month">10,500</span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/pro-coin.png" alt="" class="card__header-img">
+                        </div>
+    
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card-title"> Ruby Plus Pod</h1>
                     </header>
                     <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
@@ -602,11 +747,198 @@
                         <li class="card__list-item">
                             <i class="uil uil-check card__list-icon"></i>Flexible Booking
                         </li>
+                        
                         <li class="card__list-item">
-                            <i class="uil uil-check card__list-icon"></i>Hosting 3 People 
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Cut down video 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>2 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 3 People
+                        </li>
+                    </ul>
+                
+                </article>
+
+                 <!--==================== CARD 6 ====================-->
+                 <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 12,500</span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/enterprise-coin.png" alt="" class="card__header-img">
+                        </div>
+    
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card-title"> Golden Plus Pod</h1>
+                    </header>
+                    <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Episode - 60 minutes
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Audio Recording
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Mixing and Mastering
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Flexible Booking
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Cut down video 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>2 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 3 People
                         </li>
                     </ul>
     
+                </article>
+
+                   <!--==================== CARD 7 ====================-->
+                   <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month"> 15,000 </span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/free-coin.png" alt="" class="card__header-img">
+                        </div>
+                        
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card-title"> Platinum Pod </h1>
+                    </header>
+                    <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                 
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Episode - 30 minutes
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Audio Recording
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Mixing and Mastering
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Flexible Booking
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>3 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 3 People
+                        </li>
+                    </ul>
+                    
+                </article>
+
+                <!--==================== CARD 8 ====================-->
+                <article class="card__content grid">
+                    <div class="card__pricing">
+                        <div class="card__pricing-number">
+                            <span class="card__pricing-symbol">Kshs</span>
+                        </div>
+                        <span class="card__pricing-month">18,000</span>
+                    </div>
+    
+                    <header class="card__header">
+                        <div class="card__header-circle grid">
+                            <img src="assets/images/pro-coin.png" alt="" class="card__header-img">
+                        </div>
+    
+                        <span class="card__header-subtitle">Package Name</span>
+                        <h1 class="card-title"> Platinum Plus Pod </h1>
+                    </header>
+                    <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
+                 
+                    <ul class="card__list grid">
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Episode - 60 minutes
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Audio Recording
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Mixing and Mastering
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Flexible Booking
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Recording 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Video Editing 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Pre production support 
+                        </li>
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>3 Edit Review 
+                        </li>
+                        
+                        <li class="card__list-item">
+                            <i class="uil uil-check card__list-icon"></i>Hosting 4 People
+                        </li>
+                    </ul>
+                    
+                
                 </article>
 
                 </div>
