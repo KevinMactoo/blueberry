@@ -674,7 +674,7 @@
                         </div>
                         
                         <span class="card__header-subtitle">Package Name</span>
-                        <h1 class="card-title"> Sapphire Plus Pod</h1>
+                        <h1 class="card-title"> Sapphire Plus</h1>
                     </header>
                     <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
@@ -788,7 +788,7 @@
                         </div>
     
                         <span class="card__header-subtitle">Package Name</span>
-                        <h1 class="card-title"> Golden Plus Pod</h1>
+                        <h1 class="card-title"> Golden Plus</h1>
                     </header>
                     <button class="card__button" data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                     <ul class="card__list grid">
@@ -900,7 +900,7 @@
                         </div>
     
                         <span class="card__header-subtitle">Package Name</span>
-                        <h1 class="card-title"> Platinum Plus Pod </h1>
+                        <h1 class="card-title"> Platinum Plus</h1>
                     </header>
                     <button class="card__button " data-toggle="modal" data-target="#modalBookingForm"> Book Now !</button>
                  
