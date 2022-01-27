@@ -56,4 +56,14 @@ if (isset($_POST['update'])) {
 	}
 	}
 }
+
+$sql = "SELECT * FROM booking ";
+$result -> $mysqli -> query($sql);
+
+// Fetch all
+$result -> fetch_all(MYSQLI_ASSOC);
+
+// Free result set
+$result -> free_result();
+
 ?>

@@ -938,7 +938,7 @@ add_view($conn, $visitor_ip, $page_id);
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Name </label>
-                                <input type="text" class="contact__input" name="name" value="<?php echo $name?>">
+                                <input type="text" name="firstname" class="form-control" id="inputFirstname" placeholder="First name" value="<?php echo $firstname?>">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label"> Email </label>
